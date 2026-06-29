@@ -21,59 +21,55 @@ a{
 section{
     padding:90px 0;
 }
+
 /* ==========================
    PAGE BANNER
 ========================== */
 
 .page-banner{
     position:relative;
-    height:420px;
+    height:450px;
     display:flex;
     align-items:center;
     justify-content:center;
-    overflow:hidden;
 }
 
-.air-banner{
-    background:url("../images/Air-fright.png") center center/cover no-repeat;
+.dangerous-banner{
+    background:url("../images/bgdangerous.jpg") center center/cover no-repeat;
 }
 
 .page-banner .overlay{
     position:absolute;
     inset:0;
-    background:rgba(0,0,0,.45);
+    background:rgba(0,0,0,.65);
 }
 
 .banner-content{
     position:relative;
     z-index:2;
-    text-align:center;
     color:#fff;
 }
 
 .banner-content h1{
-    font-size:58px;
+    font-size:72px;
     font-weight:700;
-    margin-bottom:20px;
+    margin-bottom:25px;
 }
 
 .breadcrumb{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:8px;
-    font-size:15px;
-    font-weight:500;
+    font-size:18px;
+    font-weight:600;
 }
 
 .breadcrumb a{
     color:#fff;
-    text-decoration:none;
 }
 
 .breadcrumb span{
     color:#fff;
+    margin:0 8px;
 }
+
 /* ==========================
    MAIN SECTION
 ========================== */
@@ -111,17 +107,11 @@ section{
     display:flex;
     justify-content:space-between;
     align-items:center;
-
     padding:20px;
-
     background:#fff;
-
     border:1px solid #eee;
-
     color:#222;
-
     font-weight:600;
-
     transition:.3s;
 }
 
@@ -160,11 +150,8 @@ section{
     flex-direction:column;
     align-items:center;
     justify-content:center;
-
     background:#fff;
-
     padding:40px 20px;
-
     color:#222;
 }
 
@@ -192,6 +179,10 @@ section{
    OVERVIEW
 ========================== */
 
+.overview{
+    margin-bottom:60px;
+}
+
 .overview h2{
     font-size:48px;
     font-weight:700;
@@ -202,6 +193,7 @@ section{
     font-size:18px;
     line-height:1.9;
     margin-bottom:20px;
+    color:#555;
 }
 
 /* ==========================
@@ -214,10 +206,13 @@ section{
     padding:14px 35px;
     border-radius:6px;
     font-weight:600;
+    color:#fff;
+    transition:.3s;
 }
 
 .btn-success:hover{
     background:#00bb43;
+    color:#fff;
 }
 
 /* ==========================
@@ -233,8 +228,11 @@ section{
     font-weight:700;
     text-transform:uppercase;
     margin-bottom:35px;
-    line-height:1.3;
 }
+
+/* ==========================
+   REASON CARD
+========================== */
 
 .reason-card{
 
@@ -313,19 +311,17 @@ section{
 
     font-size:30px;
 }
+
 .reason-card h4{
-    font-size:24px;
+    font-size:32px;
     font-weight:700;
-    margin-bottom:12px;
+    margin-bottom:15px;
 }
 
 .reason-card p{
-    font-size:16px;
-    line-height:1.7;
-    margin:0;
-}
-.reason-card .content{
-    padding-left:10px;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:0;
 }
 
 /* ==========================
@@ -344,4 +340,186 @@ section{
 .download-box,
 .service-sidebar{
     box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+/* ==========================
+   RESPONSIVE - TABLET
+========================== */
+
+@media (max-width:991px){
+
+    .page-banner{
+        height:320px;
+    }
+
+    .banner-content h1{
+        font-size:42px;
+    }
+
+    .overview h2,
+    .reason-section h2{
+        font-size:28px;
+    }
+
+    .reason-card{
+        padding:30px 25px 30px 130px;
+        min-height:150px;
+    }
+
+    .reason-card .number{
+        width:42px;
+        height:42px;
+        left:18px;
+        font-size:18px;
+    }
+
+    .reason-card .icon{
+        width:60px;
+        height:60px;
+        left:62px;
+        font-size:24px;
+    }
+
+    .reason-card h4{
+        font-size:26px;
+    }
+
+    .reason-card p{
+        font-size:16px;
+    }
+
+    .service-page img{
+        height:320px;
+    }
+
+    .service-sidebar{
+        margin-bottom:35px;
+    }
+
+    .download-box{
+        margin-top:30px;
+    }
+}
+
+/* ==========================
+   RESPONSIVE - MOBILE
+========================== */
+
+@media (max-width:767px){
+
+    section{
+        padding:60px 0;
+    }
+
+    .page-banner{
+        height:260px;
+    }
+
+    .banner-content h1{
+        font-size:34px;
+    }
+
+    .breadcrumb{
+        font-size:14px;
+        text-align:center;
+    }
+
+    .overview h2,
+    .reason-section h2{
+        font-size:24px;
+    }
+
+    .overview p{
+        font-size:16px;
+    }
+
+    .reason-card{
+        padding:25px 20px 25px 110px;
+        min-height:auto;
+    }
+
+    .reason-card .number{
+        width:38px;
+        height:38px;
+        font-size:16px;
+    }
+
+    .reason-card .icon{
+        width:50px;
+        height:50px;
+        left:54px;
+        font-size:20px;
+    }
+
+    .reason-card h4{
+        font-size:20px;
+    }
+
+    .reason-card p{
+        font-size:15px;
+        line-height:1.6;
+    }
+
+    .service-page img{
+        height:250px;
+    }
+
+    .service-sidebar{
+        margin-bottom:40px;
+    }
+
+    .download-box{
+        margin-top:30px;
+    }
+
+    .text-center .btn-success{
+        width:100%;
+    }
+
+    
+}
+/*=========================
+Dangerous Goods List
+==========================*/
+
+.reason-section{
+    margin-top:60px;
+}
+
+.reason-section h2{
+    font-size:30px;
+    font-weight:600;
+    line-height:1.5;
+    margin-bottom:35px;
+    text-transform:uppercase;
+}
+
+.service-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.service-list li{
+    display:flex;
+    align-items:flex-start;
+    gap:15px;
+    padding:18px 0;
+    border-bottom:1px solid #e5e5e5;
+    font-size:18px;
+    color:#222;
+}
+
+.service-list li i{
+    color:#b5b5b5;
+    font-size:16px;
+    margin-top:5px;
+}
+
+.service-list li strong{
+    font-weight:700;
+}
+
+.reason-section .text-center{
+    margin-top:40px;
 }

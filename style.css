@@ -1,5 +1,5 @@
 /* ==========================================
-   JP GLOBAL LOGISTICS
+   AryanGlob Logistics 
    MAIN STYLESHEET
 ========================================== */
 
@@ -739,4 +739,20 @@ footer a:hover {
         width:100%;
     }
 
+}
+.service-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.text-decoration-none {
+    color: inherit;
+}
+
+.text-decoration-none:hover {
+    color: inherit;
 }

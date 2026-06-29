@@ -21,6 +21,7 @@ a{
 section{
     padding:90px 0;
 }
+
 /* ==========================
    PAGE BANNER
 ========================== */
@@ -34,14 +35,14 @@ section{
     overflow:hidden;
 }
 
-.air-banner{
-    background:url("../images/Air-fright.png") center center/cover no-repeat;
+.customs-banner{
+    background:url("../images/bgcustomebrok.jpg") center center/cover no-repeat;
 }
 
 .page-banner .overlay{
     position:absolute;
     inset:0;
-    background:rgba(0,0,0,.45);
+    background:rgba(0,0,0,.65);
 }
 
 .banner-content{
@@ -67,13 +68,17 @@ section{
 }
 
 .breadcrumb a{
-    color:#fff;
-    text-decoration:none;
+    color:#2f2cff;
+}
+
+.breadcrumb a:hover{
+    color:#00d34d;
 }
 
 .breadcrumb span{
     color:#fff;
 }
+
 /* ==========================
    MAIN SECTION
 ========================== */
@@ -111,17 +116,11 @@ section{
     display:flex;
     justify-content:space-between;
     align-items:center;
-
     padding:20px;
-
     background:#fff;
-
     border:1px solid #eee;
-
     color:#222;
-
     font-weight:600;
-
     transition:.3s;
 }
 
@@ -136,7 +135,7 @@ section{
 }
 
 /* ==========================
-   DOWNLOAD BOX
+   REQUIRED DOCUMENTS BOX
 ========================== */
 
 .download-box{
@@ -146,36 +145,42 @@ section{
 }
 
 .download-box h4{
-    font-size:38px;
+    font-size:34px;
     font-weight:700;
-    margin-bottom:20px;
+    margin-bottom:18px;
 }
 
 .download-box p{
-    margin-bottom:25px;
+    line-height:1.8;
+    margin-bottom:20px;
 }
 
 .pdf-box{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-
     background:#fff;
-
-    padding:40px 20px;
-
-    color:#222;
+    padding:25px;
 }
 
-.pdf-box i{
-    font-size:80px;
-    color:#ff5722;
-    margin-bottom:15px;
+.document-list{
+    list-style:none;
+    margin:0;
+    padding:0;
 }
 
-.pdf-box span{
-    font-weight:600;
+.document-list li{
+    padding:12px 0;
+    border-bottom:1px solid #eee;
+    color:#333;
+    font-size:16px;
+}
+
+.document-list li:last-child{
+    border-bottom:none;
+}
+
+.document-list i{
+    color:#00d34d;
+    width:24px;
+    margin-right:10px;
 }
 
 /* ==========================
@@ -186,11 +191,15 @@ section{
     width:100%;
     height:520px;
     object-fit:cover;
+    border-radius:8px;
 }
-
 /* ==========================
    OVERVIEW
 ========================== */
+
+.overview{
+    margin-bottom:60px;
+}
 
 .overview h2{
     font-size:48px;
@@ -202,6 +211,7 @@ section{
     font-size:18px;
     line-height:1.9;
     margin-bottom:20px;
+    color:#555;
 }
 
 /* ==========================
@@ -211,15 +221,76 @@ section{
 .btn-success{
     background:#00d34d;
     border:none;
+    color:#fff;
     padding:14px 35px;
     border-radius:6px;
     font-weight:600;
+    transition:.3s;
 }
 
 .btn-success:hover{
     background:#00bb43;
+    color:#fff;
 }
 
+/* ==========================
+   CUSTOM BROKERAGE SERVICES
+========================== */
+
+.project-section{
+    margin-top:70px;
+}
+
+.project-section h2{
+    font-size:30px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-bottom:25px;
+    line-height:1.3;
+}
+
+.project-section p{
+    font-size:18px;
+    line-height:1.9;
+    color:#555;
+    margin-bottom:25px;
+}
+
+.project-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.project-list li{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    margin-bottom:18px;
+    font-size:17px;
+    line-height:1.8;
+    color:#444;
+}
+
+.project-list li i{
+    color:#00d34d;
+    font-size:18px;
+    margin-top:5px;
+    flex-shrink:0;
+}
+
+/* ==========================
+   SECTION SPACING
+========================== */
+
+.project-section,
+.overview{
+    padding-bottom:10px;
+}
+
+.overview + .project-section{
+    margin-top:50px;
+}
 /* ==========================
    REASON SECTION
 ========================== */
@@ -237,25 +308,15 @@ section{
 }
 
 .reason-card{
-
     position:relative;
-
     background:#4d00b8;
-
     color:#fff;
-
     padding:32px 35px 32px 165px;
-
     margin-bottom:35px;
-
     min-height:155px;
-
     display:flex;
-
     flex-direction:column;
-
     justify-content:center;
-
     transition:.3s;
 }
 
@@ -265,54 +326,41 @@ section{
 }
 
 .reason-card .number{
-
     position:absolute;
-
     left:22px;
     top:50%;
-
     transform:translateY(-50%);
-
     width:46px;
     height:46px;
-
     background:#fff;
-
     color:#00d34d;
-
-    font-weight:700;
-
     display:flex;
-    align-items:center;
     justify-content:center;
-
+    align-items:center;
     font-size:20px;
+    font-weight:700;
 }
 
 .reason-card .icon{
-
     position:absolute;
-
     left:80px;
     top:50%;
-
     transform:translateY(-50%);
-
     width:70px;
     height:70px;
-
     border-radius:50%;
-
     background:#fff;
-
     color:#00d34d;
-
     display:flex;
-    align-items:center;
     justify-content:center;
-
+    align-items:center;
     font-size:30px;
 }
+
+.reason-card .content{
+    padding-left:10px;
+}
+
 .reason-card h4{
     font-size:24px;
     font-weight:700;
@@ -324,12 +372,9 @@ section{
     line-height:1.7;
     margin:0;
 }
-.reason-card .content{
-    padding-left:10px;
-}
 
 /* ==========================
-   ENQUIRY BUTTON CENTER
+   ENQUIRY BUTTON
 ========================== */
 
 .text-center .btn-success{
@@ -344,4 +389,115 @@ section{
 .download-box,
 .service-sidebar{
     box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width:991px){
+
+    section{
+        padding:70px 0;
+    }
+
+    .page-banner{
+        height:320px;
+    }
+
+    .banner-content h1{
+        font-size:42px;
+    }
+
+    .overview h2,
+    .project-section h2,
+    .reason-section h2{
+        font-size:28px;
+    }
+
+    .reason-card{
+        padding:30px 25px 30px 130px;
+        min-height:150px;
+    }
+
+    .reason-card .number{
+        width:42px;
+        height:42px;
+        left:18px;
+    }
+
+    .reason-card .icon{
+        width:60px;
+        height:60px;
+        left:62px;
+        font-size:24px;
+    }
+
+    .service-page img{
+        height:320px;
+    }
+}
+
+@media (max-width:767px){
+
+    section{
+        padding:60px 0;
+    }
+
+    .page-banner{
+        height:260px;
+    }
+
+    .banner-content h1{
+        font-size:34px;
+    }
+
+    .breadcrumb{
+        flex-wrap:wrap;
+        font-size:13px;
+    }
+
+    .overview h2,
+    .project-section h2,
+    .reason-section h2{
+        font-size:24px;
+    }
+
+    .reason-card{
+        padding:25px 20px 25px 110px;
+        min-height:auto;
+    }
+
+    .reason-card .number{
+        width:38px;
+        height:38px;
+        font-size:16px;
+    }
+
+    .reason-card .icon{
+        width:50px;
+        height:50px;
+        left:54px;
+        font-size:20px;
+    }
+
+    .reason-card h4{
+        font-size:20px;
+    }
+
+    .reason-card p{
+        font-size:15px;
+    }
+
+    .service-page img{
+        height:240px;
+    }
+
+    .service-sidebar{
+        margin-bottom:40px;
+    }
+
+    .download-box{
+        margin-top:30px;
+    }
 }
