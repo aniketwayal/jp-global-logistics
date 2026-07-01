@@ -2128,3 +2128,13 @@ html{
     box-shadow:0 25px 60px rgba(0,0,0,.18);
 
 }
+.mission-values-list {
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+.mission-values-list li {
+    margin-bottom: 8px;
+    line-height: 1.7;
+    color: #555;
+}
