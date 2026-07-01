@@ -523,3 +523,102 @@ Dangerous Goods List
 .reason-section .text-center{
     margin-top:40px;
 }
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer {
+    background: #071d39;
+    color: #dcdcdc;
+    padding: 70px 0 20px;
+}
+
+footer h4 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+footer h4::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #ffc107;
+    display: block;
+    margin-top: 10px;
+}
+
+footer p {
+    color: #cfcfcf;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin-bottom: 14px;
+}
+
+footer ul li a {
+    color: #dcdcdc;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+footer ul li a:hover {
+    color: #ffc107;
+    padding-left: 8px;
+}
+
+footer i {
+    color: #ffc107;
+    width: 24px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+footer hr {
+    border-color: rgba(255,255,255,.15);
+    margin: 35px 0 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+/* ===========================
+   Responsive Footer
+=========================== */
+
+@media (max-width: 991px) {
+
+    footer {
+        text-align: center;
+    }
+
+    footer h4::after {
+        margin: 10px auto 0;
+    }
+
+    footer i {
+        margin-right: 6px;
+    }
+
+    footer .col-lg-4 {
+        margin-bottom: 35px;
+    }
+}

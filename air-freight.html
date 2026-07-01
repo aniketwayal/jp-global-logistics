@@ -3,90 +3,255 @@
 
 <head>
 
+    <!-- ==========================================
+         META
+    =========================================== -->
+
     <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Air Freight | AryanGlob Logistics </title>
+    <meta name="description"
+        content="AryanGlob Logistics provides fast, secure and reliable Air Freight services across India and worldwide with complete customs clearance and door-to-door delivery.">
 
-    <!-- Bootstrap -->
+    <meta name="keywords"
+        content="Air Freight, International Air Cargo, Cargo Services, Freight Forwarding, Logistics, AryanGlob Logistics">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="author"
+        content="AryanGlob Logistics">
 
-    <!-- Font Awesome -->
+    <meta name="robots"
+        content="index, follow">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <title>
+        Air Freight | AryanGlob Logistics
+    </title>
 
-    <!-- Google Font -->
+    <!-- ==========================================
+         FAVICON
+    =========================================== -->
+
+    <link rel="icon"
+        type="image/png"
+        href="images/favicon.png">
+
+    <!-- ==========================================
+         GOOGLE FONT
+    =========================================== -->
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- ==========================================
+         BOOTSTRAP
+    =========================================== -->
 
-    <link rel="stylesheet" href="css/air-freight.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- ==========================================
+         FONT AWESOME
+    =========================================== -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- ==========================================
+         COMMON SERVICE CSS
+    =========================================== -->
+
+    <link rel="stylesheet"
+        href="css/service.css">
 
 </head>
 
 <body>
 
-
-  <body>
-
-<!-- =========================
+<!-- ==========================================
      NAVBAR
-========================= -->
+========================================== -->
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark">
 
     <div class="container">
 
-        <a class="navbar-brand fw-bold" href="index.html">
-            AryanGlob Logistics 
+        <!-- Logo -->
+
+        <a class="navbar-brand"
+            href="index.html">
+
+            AryanGlob Logistics
+
         </a>
 
+        <!-- Mobile Toggle -->
+
         <button class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#menu">
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainMenu"
+            aria-controls="mainMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
 
             <span class="navbar-toggler-icon"></span>
 
         </button>
 
-        <div class="collapse navbar-collapse" id="menu">
+        <!-- Menu -->
 
-            <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse"
+            id="mainMenu">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+
+                    <a class="nav-link"
+                        href="index.html">
+
+                        Home
+
+                    </a>
+
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About</a>
+
+                    <a class="nav-link"
+                        href="aboutus.html">
+
+                        About Us
+
+                    </a>
+
                 </li>
 
                 <li class="nav-item dropdown">
 
-                    <a class="nav-link dropdown-toggle"
-                       href="services.html"
-                       role="button"
-                       data-bs-toggle="dropdown">
+                    <a class="nav-link dropdown-toggle active"
+                        href="services.html"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+
                         Services
+
                     </a>
 
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="air-freight.html">Air Freight</a></li>
-                        <li><a class="dropdown-item" href="oceanfreight.html">Ocean Freight</a></li>
-                        <li><a class="dropdown-item" href="project-cargo.html">Project Cargo</a></li>
-                        <li><a class="dropdown-item" href="custom-brokerage.html">Custom Brokerage</a></li>
-                        <li><a class="dropdown-item" href="reverse-logistics.html">Reverse Logistics</a></li>
-                        <li><a class="dropdown-item" href="dangerous-goods.html">Dangerous Goods Handling</a></li>
+
+                        <li>
+
+                            <a class="dropdown-item active"
+                                href="air-freight.html">
+
+                                <i class="fa-solid fa-plane me-2"></i>
+
+                                Air Freight
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                                href="oceanfreight.html">
+
+                                <i class="fa-solid fa-ship me-2"></i>
+
+                                Ocean Freight
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                                href="project-cargo.html">
+
+                                <i class="fa-solid fa-box me-2"></i>
+
+                                Project Cargo
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                                href="custom-brokerage.html">
+
+                                <i class="fa-solid fa-file-invoice me-2"></i>
+
+                                Customs Brokerage
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                                href="reverse-logistics.html">
+
+                                <i class="fa-solid fa-truck-fast me-2"></i>
+
+                                Reverse Logistics
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                                href="dangerous-goods.html">
+
+                                <i class="fa-solid fa-biohazard me-2"></i>
+
+                                Dangerous Goods Handling
+
+                            </a>
+
+                        </li>
+
                     </ul>
 
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+
+                    <a class="nav-link"
+                        href="contact.html">
+
+                        Contact
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item ms-lg-3">
+
+                    <a href="contact.html"
+                        class="btn btn-success">
+
+                        Get Quote
+
+                    </a>
+
                 </li>
 
             </ul>
@@ -97,401 +262,846 @@
 
 </nav>
 
-<!-- ===========================
-PAGE BANNER
-=========================== -->
+<!-- ==========================================
+     PAGE BANNER
+========================================== -->
 
 <section class="page-banner air-banner">
 
-        <div class="overlay"></div>
+    <div class="overlay"></div>
 
-        <div class="container text-center banner-content">
+    <div class="container">
 
-            <h1>Air Freight</h1>
+        <div class="banner-content">
 
-            <div class="breadcrumb-area">
-                <a href="index.html">HOME</a>
-                <span>›</span>
-                <a href="services.html">SERVICES</a>
-                <span>›</span>
-                <span>Air Freight</span>
+            <h1>
+                Air Freight
+            </h1>
+
+            <nav aria-label="breadcrumb">
+
+                <ol class="breadcrumb justify-content-center">
+
+                    <li class="breadcrumb-item">
+
+                        <a href="index.html">
+                            Home
+                        </a>
+
+                    </li>
+
+                    <li class="breadcrumb-item">
+
+                        <a href="services.html">
+                            Services
+                        </a>
+
+                    </li>
+
+                    <li class="breadcrumb-item active text-white"
+                        aria-current="page">
+
+                        Air Freight
+
+                    </li>
+
+                </ol>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================================
+     MAIN SERVICE SECTION
+========================================== -->
+
+<section class="service-page">
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- ==========================================
+                 LEFT SIDEBAR
+            =========================================== -->
+
+          <!-- ==========================================
+     LEFT SIDEBAR
+========================================== -->
+
+<aside class="col-lg-4">
+
+    <div class="sticky-sidebar">
+
+        <div class="service-sidebar">
+
+            <h3>Our Services</h3>
+
+            <ul>
+
+                <li class="active">
+                    <a href="air-freight.html">
+                        <span>
+                            <i class="fa-solid fa-plane"></i>
+                            Air Freight
+                        </span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="oceanfreight.html">
+                        <span>
+                            <i class="fa-solid fa-ship"></i>
+                            Ocean Freight
+                        </span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="project-cargo.html">
+                        <span>
+                            <i class="fa-solid fa-box"></i>
+                            Project Cargo
+                        </span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="custom-brokerage.html">
+                        <span>
+                            <i class="fa-solid fa-file-invoice"></i>
+                            Customs Brokerage
+                        </span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="reverse-logistics.html">
+                        <span>
+                            <i class="fa-solid fa-truck-fast"></i>
+                            Reverse Logistics
+                        </span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="dangerous-goods.html">
+                        <span>
+                            <i class="fa-solid fa-biohazard"></i>
+                            Dangerous Goods Handling
+                        </span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</aside>
+
+
+            <!-- ==========================================
+                 RIGHT CONTENT STARTS
+            =========================================== -->
+
+            <div class="col-lg-8 service-content">
+
+                <!-- ==========================================
+     IMAGE GALLERY
+========================================== -->
+
+<div class="service-images mb-section">
+
+    <div class="row g-4">
+
+        <div class="col-md-6">
+
+            <div class="image-box">
+
+                <img src="images/air1.png"
+                     alt="International Air Freight Services">
+
             </div>
 
         </div>
 
-    </section>
+        <div class="col-md-6">
 
+            <div class="image-box">
 
-    <!-- ===========================
-MAIN SECTION
-=========================== -->
+                <img src="images/air1.jpeg"
+                     alt="Global Air Cargo Transportation">
 
-    <section class="service-page">
+            </div>
 
-        <div class="container">
+        </div>
 
-            <div class="row align-items-start">
+    </div>
 
-                <!-- Sidebar -->
-                <aside class="col-lg-4 mb-5 mb-lg-0">
+</div>
 
-                    <div class="service-sidebar">
 
-                        <h3>Services</h3>
+<!-- ==========================================
+     OVERVIEW
+========================================== -->
 
-                        <ul>
+<div class="overview">
 
-                            <li class="active">
+    <h2>
+        Air Freight Services
+    </h2>
 
-                                <a href="air-freight.html">
+    <p>
 
-                                    <i class="fa-solid fa-plane"></i>
+        <strong>AryanGlob Logistics</strong> delivers reliable, secure and
+        time-critical Air Freight solutions for businesses across India and
+        worldwide. Through our extensive airline partnerships and global
+        logistics network, we ensure every shipment reaches its destination
+        quickly and safely.
 
-                                    Air Freight
+    </p>
 
-                                    <i class="fa fa-angle-right"></i>
+    <p>
 
-                                </a>
+        Whether you are transporting urgent commercial cargo,
+        high-value products, industrial equipment, pharmaceuticals,
+        electronics or retail goods, our experienced logistics team
+        provides complete end-to-end freight management.
 
-                            </li>
+    </p>
 
-                            <li>
+    <p>
 
-                                <a href="oceanfreight.html">
-                                    <i class="fa-solid fa-ship"></i>
-                                    Ocean Freight
-                                    <i class="fa fa-angle-right"></i>
+        We manage the complete logistics process including cargo pickup,
+        export documentation, customs clearance, airline coordination,
+        shipment tracking and final delivery, giving customers complete
+        peace of mind throughout the transportation process.
 
-                                </a>
+    </p>
 
-                            </li>
+    <a href="contact.html"
+       class="btn btn-success mt-3">
 
-                            <li>
+        <i class="fa-solid fa-paper-plane"></i>
 
-                                <a href="project-cargo.html">
+        Request a Quote
 
-                                    <i class="fa-solid fa-box"></i>
+    </a>
 
-                                    Project Cargo
+</div>
 
-                                    <i class="fa fa-angle-right"></i>
 
-                                </a>
+<!-- ==========================================
+     KEY FEATURES
+========================================== -->
 
-                            </li>
+<div class="project-section">
 
-                            <li>
+    <h2>
+        Why Choose AryanGlob Air Freight?
+    </h2>
 
-                                <a href="custom-brokerage.html">
+    <p>
 
-                                    <i class="fa-solid fa-file-invoice"></i>
+        Our Air Freight solutions are designed to provide fast transit,
+        dependable service and cost-effective transportation while ensuring
+        maximum cargo safety throughout the journey.
 
-                                    Custom Brokerage
+    </p>
 
-                                    <i class="fa fa-angle-right"></i>
+    <ul class="project-list">
 
-                                </a>
+        <li>
 
-                            </li>
+            <i class="fa-solid fa-circle-check"></i>
 
-                            <li>
+            Express and Priority Air Freight Services
 
-                                <a href="reverse-logistics.html">
+        </li>
 
-                                    <i class="fa-solid fa-truck-fast"></i>
+        <li>
 
-                                    Reverse Logistics
+            <i class="fa-solid fa-circle-check"></i>
 
-                                    <i class="fa fa-angle-right"></i>
+            Worldwide Import & Export Cargo Handling
 
-                                </a>
+        </li>
 
-                            </li>
+        <li>
 
-                            <li>
+            <i class="fa-solid fa-circle-check"></i>
 
-                                <a href="dangerous-goods.html">
+            Door-to-Door Logistics Solutions
 
-                                    <i class="fa-solid fa-biohazard"></i>
+        </li>
 
-                                    Dangerous Goods Handling
+        <li>
 
-                                    <i class="fa fa-angle-right"></i>
+            <i class="fa-solid fa-circle-check"></i>
 
-                                </a>
+            Airport-to-Airport Freight Services
 
-                            </li>
+        </li>
 
-                        </ul>
+        <li>
 
-                    </div>
+            <i class="fa-solid fa-circle-check"></i>
 
+            Customs Documentation & Clearance
 
+        </li>
 
-                    <!-- Download Box -->
+        <li>
 
+            <i class="fa-solid fa-circle-check"></i>
 
-                </aside>
+            Real-Time Shipment Tracking
 
+        </li>
 
+        <li>
 
-                <!-- ===========================
-RIGHT CONTENT
-=========================== -->
+            <i class="fa-solid fa-circle-check"></i>
 
-                <div class="col-lg-8 ps-lg-5">
+            Secure Handling of High-Value Cargo
 
-                    <div class="row g-3 mb-5">
+        </li>
 
-                        <div class="col-md-6">
+        <li>
 
-                            <img src="images/air1.png" class="img-fluid rounded">
+            <i class="fa-solid fa-circle-check"></i>
 
-                        </div>
+            Competitive International Freight Rates
 
-                        <div class="col-md-6">
+        </li>
 
-                            <img src="images/air1.jpeg" class="img-fluid rounded">
+    </ul>
 
-                        </div>
+</div>
 
-                    </div>
 
+<!-- ==========================================
+     SERVICE HIGHLIGHTS
+========================================== -->
 
+<div class="feature-grid">
 
-                    <div class="overview">
+    <div class="feature-item">
 
-                        <h2>Overview</h2>
+        <i class="fa-solid fa-plane-departure"></i>
 
-                        <p>
-                            AryanGlob Logistics Pvt. Ltd. provides fast, secure, and reliable
-                            international air freight services for urgent, time-sensitive, and
-                            high-value shipments. Speed and safety are our highest priorities,
-                            ensuring every shipment reaches its destination on time and in
-                            perfect condition.
-                        </p>
+        <h5>
+            Fast Delivery
+        </h5>
 
-                        <p>
-                            We offer competitive freight rates, quick transit times,
-                            professional customs clearance, and seamless door-to-door delivery
-                            through our strong global network and experienced logistics team.
-                        </p>
+        <p>
 
-                        <p>
-                            <strong>
-                                Best Air Freight Services Company – Fast • Safe • Reliable
-                            </strong>
-                        </p>
+            Quick worldwide transportation through leading international airlines.
 
-                        <a href="contact.html" class="btn btn-success">
-                            Enquiry Now
-                        </a>
+        </p>
 
-                    </div>
+    </div>
 
+    <div class="feature-item">
 
+        <i class="fa-solid fa-globe"></i>
 
-                    <!-- Reasons -->
+        <h5>
+            Global Network
+        </h5>
 
-                    <div class="reason-section">
+        <p>
 
-                        <h2>
+            Worldwide logistics coverage across major airports and destinations.
 
-                            Reasons For Using Air Freight?
+        </p>
 
-                        </h2>
+    </div>
 
-                        <div class="reason-card">
+    <div class="feature-item">
 
-                            <div class="number">
+        <i class="fa-solid fa-box"></i>
 
-                                01
+        <h5>
+            Safe Cargo
+        </h5>
 
-                            </div>
+        <p>
 
-                            <div class="icon">
+            Professional packing, handling and transportation for every shipment.
 
-                                <i class="fa-solid fa-stopwatch"></i>
+        </p>
 
-                            </div>
+    </div>
 
-                            <div class="content">
+    <div class="feature-item">
 
-                                <h4>The Fastest Method</h4>
+        <i class="fa-solid fa-headset"></i>
 
-                                <p>
+        <h5>
+            24×7 Support
+        </h5>
 
-                                    Transporting urgent cargo through air is the fastest option available.
+        <p>
 
-                                </p>
+            Dedicated logistics professionals ready to assist throughout the shipment.
 
-                            </div>
+        </p>
 
-                        </div>
+    </div>
 
-                        <div class="reason-card">
+</div>
+<!-- ==========================================
+     REASONS FOR USING AIR FREIGHT
+========================================== -->
 
-                            <div class="number">
+<div class="reason-section">
 
-                                02
+    <h2>
+        Reasons for Choosing Air Freight
+    </h2>
 
-                            </div>
+    <p>
 
-                            <div class="icon">
+        Air Freight is the preferred transportation solution for businesses
+        requiring speed, reliability and global connectivity. AryanGlob
+        Logistics provides efficient air cargo services designed to keep your
+        supply chain moving without delays.
 
-                                <i class="fa-solid fa-earth-americas"></i>
+    </p>
 
-                            </div>
+    <!-- Reason 01 -->
 
-                            <div class="content">
+    <div class="reason-card">
 
-                                <h4>Worldwide Delivery</h4>
+        <div class="number">
+            01
+        </div>
 
-                                <p>
+        <div class="icon">
+            <i class="fa-solid fa-stopwatch"></i>
+        </div>
 
-                                    Deliver goods across the globe quickly and efficiently.
+        <div class="content">
 
-                                </p>
+            <h4>
+                Fastest Transit Time
+            </h4>
 
-                            </div>
+            <p>
 
-                        </div>
+                Air Freight offers the quickest transportation option,
+                making it ideal for urgent, time-sensitive and high-priority
+                shipments across domestic and international destinations.
 
-                        <div class="reason-card">
+            </p>
 
-                            <div class="number">
+        </div>
 
-                                03
+    </div>
 
-                            </div>
+    <!-- Reason 02 -->
 
-                            <div class="icon">
+    <div class="reason-card">
 
-                                <i class="fa-solid fa-shield-halved"></i>
+        <div class="number">
+            02
+        </div>
 
-                            </div>
+        <div class="icon">
+            <i class="fa-solid fa-earth-americas"></i>
+        </div>
 
-                            <div class="content">
+        <div class="content">
 
-                                <h4>Safe & Reliable</h4>
+            <h4>
+                Worldwide Connectivity
+            </h4>
 
-                                <p>
+            <p>
 
-                                    Professional handling with complete shipment security.
+                Our global airline network allows shipments to reach
+                hundreds of international destinations efficiently and
+                securely.
 
-                                </p>
+            </p>
 
-                            </div>
+        </div>
 
-                        </div>
+    </div>
 
-                        <div class="reason-card">
+    <!-- Reason 03 -->
 
-                            <div class="number">
+    <div class="reason-card">
 
-                                04
+        <div class="number">
+            03
+        </div>
 
-                            </div>
+        <div class="icon">
+            <i class="fa-solid fa-shield-halved"></i>
+        </div>
 
-                            <div class="icon">
+        <div class="content">
 
-                                <i class="fa-solid fa-location-dot"></i>
+            <h4>
+                Secure Cargo Handling
+            </h4>
 
-                            </div>
+            <p>
 
-                            <div class="content">
+                Every shipment is handled according to international
+                aviation standards with strict security procedures,
+                ensuring safe transportation from origin to destination.
 
-                                <h4>Track Your Shipment</h4>
+            </p>
 
-                                <p>
+        </div>
 
-                                    Real-time shipment tracking from pickup to delivery.
+    </div>
 
-                                </p>
+    <!-- Reason 04 -->
 
-                            </div>
+    <div class="reason-card">
 
-                        </div>
+        <div class="number">
+            04
+        </div>
 
-                        <div class="reason-card">
+        <div class="icon">
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
 
-                            <div class="number">
+        <div class="content">
 
-                                05
+            <h4>
+                Real-Time Shipment Tracking
+            </h4>
 
-                            </div>
+            <p>
 
-                            <div class="icon">
+                Stay informed throughout the shipment journey with
+                real-time cargo tracking and regular shipment updates.
 
-                                <i class="fa-solid fa-boxes-stacked"></i>
+            </p>
 
-                            </div>
+        </div>
 
-                            <div class="content">
+    </div>
 
-                                <h4>Any Shipment Size</h4>
+    <!-- Reason 05 -->
 
-                                <p>
+    <div class="reason-card">
 
-                                    From small parcels to oversized cargo.
+        <div class="number">
+            05
+        </div>
 
-                                </p>
+        <div class="icon">
+            <i class="fa-solid fa-boxes-stacked"></i>
+        </div>
 
-                            </div>
+        <div class="content">
 
-                        </div>
+            <h4>
+                Flexible Cargo Capacity
+            </h4>
 
-                        <div class="reason-card">
+            <p>
 
-                            <div class="number">
+                From small express consignments to oversized commercial
+                cargo, we provide customized Air Freight solutions for
+                every shipment size.
 
-                                06
+            </p>
 
-                            </div>
+        </div>
 
-                            <div class="icon">
+    </div>
 
-                                <i class="fa-solid fa-route"></i>
+    <!-- Reason 06 -->
 
-                            </div>
+    <div class="reason-card">
 
-                            <div class="content">
+        <div class="number">
+            06
+        </div>
 
-                                <h4>Multi-Modal Transport</h4>
+        <div class="icon">
+            <i class="fa-solid fa-route"></i>
+        </div>
 
-                                <p>
+        <div class="content">
 
-                                    Air, sea and road solutions under one logistics network.
+            <h4>
+                Complete Logistics Solutions
+            </h4>
 
-                                </p>
+            <p>
 
-                            </div>
+                We integrate Air Freight with road transportation,
+                customs clearance and warehousing to provide seamless
+                end-to-end logistics services.
 
-                        </div>
+            </p>
 
-                        <div class="text-center mt-4">
+        </div>
 
-                            <a href="contact.html" class="btn btn-success">
+    </div>
 
-                                Enquiry Now
+</div>
 
-                            </a>
 
-                        </div>
+<!-- ==========================================
+     CALL TO ACTION
+========================================== -->
 
-                    </div>
+<div class="cta-box">
+
+    <h2>
+
+        Need Fast & Reliable Air Freight Services?
+
+    </h2>
+
+    <p>
+
+        AryanGlob Logistics delivers dependable international and domestic
+        air cargo solutions with professional customs clearance,
+        competitive freight rates and on-time delivery.
+
+    </p>
+
+    <a href="contact.html"
+       class="btn btn-success">
+
+        <i class="fa-solid fa-paper-plane"></i>
+
+        Request a Free Quote
+
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+     FOOTER
+========================================== -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <!-- Company -->
+
+            <div class="col-lg-4">
+
+                <h4>
+                    AryanGlob Logistics
+                </h4>
+
+                <p>
+
+                    AryanGlob Logistics delivers reliable, secure and
+                    cost-effective logistics solutions across India and
+                    worldwide. We specialize in Air Freight, Ocean Freight,
+                    Customs Brokerage, Project Cargo and Supply Chain
+                    Management.
+
+                </p>
+
+                <div class="footer-social">
+
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
 
                 </div>
 
             </div>
 
+            <!-- Quick Links -->
+
+            <div class="col-lg-4">
+
+                <h4>
+                    Quick Links
+                </h4>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="aboutus.html">About Us</a></li>
+
+                    <li><a href="services.html">Services</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div class="col-lg-4 footer-contact">
+
+                <h4>
+                    Contact Information
+                </h4>
+
+                <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span>
+
+                        Office No. 01, Gat No. 1574, Shelarwasti,
+                        Chikhali, Pimpri-Chinchwad,
+                        Pune – 411062,
+                        Maharashtra, India
+
+                    </span>
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>
+
+                        +91 XXXXXXXXXX
+
+                    </span>
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+
+                        info@aryangloblogistics.com
+
+                    </span>
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    <span>
+
+                        Monday - Saturday
+                        <br>
+                        09:00 AM - 06:00 PM
+
+                    </span>
+
+                </p>
+
+            </div>
+
         </div>
 
-    </section>
+        <hr>
 
+        <div class="footer-bottom">
 
+            <p>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+                © 2026 AryanGlob Logistics. All Rights Reserved.
+
+            </p>
+
+            <p>
+
+                Designed & Developed for
+                <strong>AryanGlob Logistics</strong>
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ==========================================
+     BACK TO TOP
+========================================== -->
+
+<a href="#"
+   class="back-top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</a>
+
+<!-- ==========================================
+     BOOTSTRAP
+========================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- ==========================================
+     BACK TO TOP SCRIPT
+========================================== -->
+
+<script>
+
+const backTop = document.querySelector(".back-top");
+
+window.addEventListener("scroll", () => {
+
+    if(window.scrollY > 300){
+
+        backTop.style.display = "flex";
+
+    }else{
+
+        backTop.style.display = "none";
+    }
+
+});
+
+</script>
 
 </body>
 

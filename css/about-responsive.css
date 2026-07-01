@@ -1,0 +1,726 @@
+/*==================================================
+        ABOUT RESPONSIVE
+==================================================*/
+
+/*==============================
+        LARGE DESKTOP
+==============================*/
+
+@media (max-width:1400px){
+
+.hero-content h1{
+
+    font-size:58px;
+
+}
+
+.section-title{
+
+    font-size:46px;
+
+}
+
+.hero-image img{
+
+    max-width:520px;
+
+}
+
+}
+
+/*==============================
+        LAPTOP
+==============================*/
+
+@media (max-width:1200px){
+
+.hero-content h1{
+
+    font-size:52px;
+
+}
+
+.section-title{
+
+    font-size:42px;
+
+}
+
+.hero-image{
+
+    min-height:560px;
+
+}
+
+.floating-card{
+
+    width:240px;
+
+}
+
+.company-image-wrapper{
+
+    padding-right:40px;
+
+}
+
+.company-small-image{
+
+    width:210px;
+
+}
+
+}
+
+/*==============================
+        TABLET
+==============================*/
+
+@media (max-width:991px){
+
+.top-header{
+
+    display:none;
+
+}
+
+body.about-page .navbar{
+
+    padding:15px 0;
+
+}
+
+body.about-page .navbar-collapse{
+
+    background:#081834;
+
+    padding:25px;
+
+    border-radius:16px;
+
+    margin-top:15px;
+
+}
+
+body.about-page .navbar-nav{
+
+    align-items:flex-start;
+
+}
+
+body.about-page .navbar-nav .nav-item{
+
+    margin:0;
+
+    width:100%;
+
+}
+
+body.about-page .navbar-nav .nav-link{
+
+    display:block;
+
+    width:100%;
+
+    margin:6px 0;
+
+}
+
+.about-hero{
+
+    text-align:center;
+
+    padding:140px 0 80px;
+
+}
+
+.hero-content{
+
+    margin-bottom:60px;
+
+}
+
+.hero-content h1{
+
+    font-size:46px;
+
+}
+
+.hero-content p{
+
+    margin:auto auto 35px;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.breadcrumb-box{
+
+    justify-content:center;
+
+}
+
+.hero-image{
+
+    min-height:auto;
+
+}
+
+.hero-image img{
+
+    max-width:480px;
+
+}
+
+.floating-card{
+
+    position:relative;
+
+    width:100%;
+
+    max-width:360px;
+
+    margin:20px auto;
+
+    right:auto;
+
+    left:auto;
+
+    top:auto;
+
+    bottom:auto;
+
+}
+
+.experience-box{
+
+    position:relative;
+
+    left:auto;
+
+    bottom:auto;
+
+    margin:30px auto;
+
+}
+
+.company-section,
+
+.mission-section,
+
+.values-section,
+
+.timeline-section,
+
+.why-choose-section,
+
+.stats-section,
+
+.cta-section{
+
+    padding:90px 0;
+
+}
+
+.company-image-wrapper{
+
+    padding-right:0;
+
+    margin-bottom:60px;
+
+}
+
+.company-small-image{
+
+    width:220px;
+
+}
+
+.experience-tag{
+
+    left:20px;
+
+}
+
+.section-title{
+
+    font-size:40px;
+
+}
+
+.company-feature{
+
+    margin-bottom:20px;
+
+}
+
+.cta-section{
+
+    text-align:center;
+
+}
+
+.cta-section .text-lg-end{
+
+    text-align:center !important;
+
+    margin-top:35px;
+
+}
+
+.footer{
+
+    text-align:center;
+
+}
+
+.footer h4::after{
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
+
+.footer-social{
+
+    justify-content:center;
+
+}
+
+.footer-contact li{
+
+    justify-content:center;
+
+}
+
+}
+
+/*==================================================
+                MOBILE
+==================================================*/
+
+@media (max-width:768px){
+
+.about-hero{
+
+    padding:120px 0 70px;
+
+}
+
+.hero-content h1{
+
+    font-size:38px;
+
+    line-height:1.25;
+
+}
+
+.hero-content p{
+
+    font-size:16px;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.hero-buttons .btn{
+
+    width:100%;
+
+    max-width:320px;
+
+}
+
+.hero-image img{
+
+    max-width:100%;
+
+}
+
+.company-main-image{
+
+    border-radius:20px;
+
+}
+
+.company-small-image{
+
+    position:relative;
+
+    width:100%;
+
+    margin-top:20px;
+
+    right:auto;
+
+    bottom:auto;
+
+    border:6px solid #fff;
+
+}
+
+.experience-tag{
+
+    position:relative;
+
+    left:0;
+
+    top:20px;
+
+    margin-bottom:30px;
+
+}
+
+.section-title{
+
+    font-size:34px;
+
+}
+
+.company-feature{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.company-feature i{
+
+    margin:auto;
+
+}
+
+.mission-card{
+
+    padding:35px 25px;
+
+}
+
+.value-item{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.value-item i{
+
+    margin:auto;
+
+}
+
+.timeline{
+
+    padding-left:20px;
+
+}
+
+.timeline::before{
+
+    left:5px;
+
+}
+
+.timeline-item{
+
+    padding:25px;
+
+}
+
+.timeline-item::before{
+
+    left:-24px;
+
+}
+
+.why-card{
+
+    padding:35px 25px;
+
+}
+
+.stats-card{
+
+    margin-bottom:25px;
+
+}
+
+.cta-section h2{
+
+    font-size:36px;
+
+}
+
+.cta-section .btn{
+
+    width:100%;
+
+    max-width:320px;
+
+}
+
+.footer-logo{
+
+    margin:auto;
+
+}
+
+}
+
+/*==================================================
+                SMALL MOBILE
+==================================================*/
+
+@media (max-width:576px){
+
+.about-hero{
+
+    padding:100px 0 60px;
+
+}
+
+.hero-content h1{
+
+    font-size:30px;
+
+}
+
+.hero-content p{
+
+    font-size:15px;
+
+}
+
+.hero-subtitle{
+
+    font-size:12px;
+
+    padding:10px 18px;
+
+}
+
+.section-title{
+
+    font-size:28px;
+
+}
+
+.section-subtitle{
+
+    font-size:12px;
+
+}
+
+.experience-box{
+
+    width:150px;
+
+    padding:18px;
+
+}
+
+.experience-box h2{
+
+    font-size:34px;
+
+}
+
+.floating-card{
+
+    padding:16px;
+
+}
+
+.floating-card i{
+
+    width:50px;
+
+    height:50px;
+
+    font-size:20px;
+
+}
+
+.company-feature{
+
+    padding:20px;
+
+}
+
+.company-feature h5{
+
+    font-size:18px;
+
+}
+
+.mission-card{
+
+    padding:30px 20px;
+
+}
+
+.why-card{
+
+    padding:30px 20px;
+
+}
+
+.stats-card{
+
+    padding:30px 20px;
+
+}
+
+.stats-card h2{
+
+    font-size:40px;
+
+}
+
+.footer{
+
+    padding:70px 0 25px;
+
+}
+
+.footer h4{
+
+    font-size:20px;
+
+}
+
+.top-btn{
+
+    width:45px;
+
+    height:45px;
+
+    right:15px;
+
+    bottom:15px;
+
+}
+
+}
+
+/*==================================================
+            EXTRA SMALL DEVICES
+==================================================*/
+
+@media (max-width:400px){
+
+.hero-content h1{
+
+    font-size:26px;
+
+}
+
+.section-title{
+
+    font-size:24px;
+
+}
+
+.hero-buttons .btn{
+
+    font-size:14px;
+
+    padding:14px 20px;
+
+}
+
+.company-feature{
+
+    padding:18px;
+
+}
+
+.mission-card{
+
+    padding:25px 18px;
+
+}
+
+.why-card{
+
+    padding:25px 18px;
+
+}
+
+.timeline-item{
+
+    padding:20px;
+
+}
+
+.stats-card{
+
+    padding:25px 18px;
+
+}
+
+.cta-section h2{
+
+    font-size:28px;
+
+}
+
+.footer{
+
+    text-align:center;
+
+}
+
+.footer-contact li{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.footer-links{
+
+    text-align:center;
+
+}
+
+}
+
+/*==================================================
+            IMAGE SAFETY
+==================================================*/
+
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+/*==================================================
+            PREVENT HORIZONTAL SCROLL
+==================================================*/
+
+html,
+body{
+
+    overflow-x:hidden;
+
+}

@@ -3,88 +3,252 @@
 
 <head>
 
+    <!-- ==========================================
+         META TAGS
+    =========================================== -->
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Project Cargo | AryanGlob Logistics </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <meta name="description"
+          content="AryanGlob Logistics provides professional Project Cargo, Heavy Lift, ODC, OOG and Industrial Logistics solutions across India and worldwide.">
 
-    <!-- Google Font -->
+    <meta name="keywords"
+          content="Project Cargo, Heavy Lift, ODC Cargo, OOG Cargo, Logistics, Freight Forwarding, AryanGlob Logistics">
+
+    <meta name="author"
+          content="AryanGlob Logistics">
+
+    <meta name="robots"
+          content="index, follow">
+
+    <title>
+
+        Project Cargo | AryanGlob Logistics
+
+    </title>
+
+    <!-- ==========================================
+         FAVICON
+    =========================================== -->
+
+    <link rel="icon"
+          type="image/png"
+          href="images/favicon.png">
+
+    <!-- ==========================================
+         GOOGLE FONT
+    =========================================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
 
-    <!-- Custom CSS -->
-<!-- Main Website CSS -->
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="responsive.css">
+    <!-- ==========================================
+         BOOTSTRAP
+    =========================================== -->
 
-<!-- Project Cargo CSS -->
-<link rel="stylesheet" href="css/project-cargo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- ==========================================
+         FONT AWESOME
+    =========================================== -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- ==========================================
+         COMMON SERVICE CSS
+    =========================================== -->
+
+    <link rel="stylesheet"
+          href="css/service.css">
+
 </head>
 
 <body>
 
-
-<!-- =========================
+<!-- ==========================================
      NAVBAR
-========================= -->
+========================================== -->
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark">
 
     <div class="container">
 
-        <a class="navbar-brand fw-bold" href="index.html">
-            AryanGlob Logistics 
+        <a class="navbar-brand"
+           href="index.html">
+
+            AryanGlob Logistics
+
         </a>
 
         <button class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#menu">
+                data-bs-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
 
             <span class="navbar-toggler-icon"></span>
 
         </button>
 
-        <div class="collapse navbar-collapse" id="menu">
+        <div class="collapse navbar-collapse"
+             id="mainMenu">
 
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+
+                    <a class="nav-link"
+                       href="index.html">
+
+                        Home
+
+                    </a>
+
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About</a>
+
+                    <a class="nav-link"
+                       href="aboutus.html">
+
+                        About Us
+
+                    </a>
+
                 </li>
 
                 <li class="nav-item dropdown">
 
-                    <a class="nav-link dropdown-toggle"
+                    <a class="nav-link dropdown-toggle active"
                        href="services.html"
                        role="button"
-                       data-bs-toggle="dropdown">
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+
                         Services
+
                     </a>
 
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="air-freight.html">Air Freight</a></li>
-                        <li><a class="dropdown-item" href="oceanfreight.html">Ocean Freight</a></li>
-                        <li><a class="dropdown-item" href="project-cargo.html">Project Cargo</a></li>
-                        <li><a class="dropdown-item" href="custom-brokerage.html">Custom Brokerage</a></li>
-                        <li><a class="dropdown-item" href="reverse-logistics.html">Reverse Logistics</a></li>
-                        <li><a class="dropdown-item" href="dangerous-goods.html">Dangerous Goods Handling</a></li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="air-freight.html">
+
+                                <i class="fa-solid fa-plane me-2"></i>
+
+                                Air Freight
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="oceanfreight.html">
+
+                                <i class="fa-solid fa-ship me-2"></i>
+
+                                Ocean Freight
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item active"
+                               href="project-cargo.html">
+
+                                <i class="fa-solid fa-box me-2"></i>
+
+                                Project Cargo
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="custom-brokerage.html">
+
+                                <i class="fa-solid fa-file-invoice me-2"></i>
+
+                                Customs Brokerage
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="reverse-logistics.html">
+
+                                <i class="fa-solid fa-truck-fast me-2"></i>
+
+                                Reverse Logistics
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="dangerous-goods.html">
+
+                                <i class="fa-solid fa-biohazard me-2"></i>
+
+                                Dangerous Goods Handling
+
+                            </a>
+
+                        </li>
+
                     </ul>
 
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+
+                    <a class="nav-link"
+                       href="contact.html">
+
+                        Contact
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item ms-lg-3">
+
+                    <a href="contact.html"
+                       class="btn btn-success">
+
+                        Get Quote
+
+                    </a>
+
                 </li>
 
             </ul>
@@ -94,254 +258,521 @@
     </div>
 
 </nav>
+<!-- ==========================================
+     PAGE BANNER
+========================================== -->
 
-<!-- ===========================
-PAGE BANNER
-=========================== -->
+<section class="page-banner project-banner">
 
+    <div class="overlay"></div>
 
-    <section class="page-banner project-banner">
+    <div class="container">
 
-        <div class="overlay"></div>
+        <div class="banner-content">
 
-        <div class="container text-center banner-content">
+            <h1>
+                Project Cargo
+            </h1>
 
-            <h1>Project Cargo</h1>
+            <nav aria-label="breadcrumb">
 
-            <div class="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
 
-                <a href="index.html">HOME</a>
+                    <li class="breadcrumb-item">
 
-                <span>›</span>
+                        <a href="index.html">
 
-                <a href="services.html">SERVICES</a>
+                            Home
 
-                <span>›</span>
+                        </a>
 
-                <span>Project Cargo</span>
+                    </li>
 
-            </div>
+                    <li class="breadcrumb-item">
+
+                        <a href="services.html">
+
+                            Services
+
+                        </a>
+
+                    </li>
+
+                    <li class="breadcrumb-item active text-white"
+                        aria-current="page">
+
+                        Project Cargo
+
+                    </li>
+
+                </ol>
+
+            </nav>
 
         </div>
 
-    </section>
+    </div>
 
-    <!-- ===========================
-        MAIN SECTION
-    =========================== -->
+</section>
 
-    <section class="service-page">
+<!-- ==========================================
+     MAIN SERVICE SECTION
+========================================== -->
 
-        <div class="container">
+<section class="service-page">
 
-            <div class="row align-items-start">
+    <div class="container">
 
-                <!-- ===========================
-                    LEFT SIDEBAR
-                =========================== -->
+        <div class="row">
 
-                <aside class="col-lg-4 mb-5 mb-lg-0">
+            <!-- ==========================================
+                 LEFT SIDEBAR
+            =========================================== -->
+
+            <aside class="col-lg-4">
+
+                <div class="sticky-sidebar">
 
                     <div class="service-sidebar">
 
-                        <h3>Services</h3>
+                        <h3>
+                            Our Services
+                        </h3>
 
                         <ul>
 
                             <li>
+
                                 <a href="air-freight.html">
-                                    <i class="fa-solid fa-plane"></i>
-                                    Air Freight
-                                    <i class="fa fa-angle-right"></i>
+
+                                    <span>
+
+                                        <i class="fa-solid fa-plane"></i>
+
+                                        Air Freight
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
                                 </a>
+
                             </li>
 
                             <li>
+
                                 <a href="oceanfreight.html">
-                                    <i class="fa-solid fa-ship"></i>
-                                    Ocean Freight
-                                    <i class="fa fa-angle-right"></i>
+
+                                    <span>
+
+                                        <i class="fa-solid fa-ship"></i>
+
+                                        Ocean Freight
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
                                 </a>
+
                             </li>
 
                             <li class="active">
+
                                 <a href="project-cargo.html">
-                                    <i class="fa-solid fa-box"></i>
-                                    Project Cargo
-                                    <i class="fa fa-angle-right"></i>
+
+                                    <span>
+
+                                        <i class="fa-solid fa-box"></i>
+
+                                        Project Cargo
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
                                 </a>
+
                             </li>
 
                             <li>
+
                                 <a href="custom-brokerage.html">
-                                    <i class="fa-solid fa-file-invoice"></i>
-                                    Custom Brokerage
-                                    <i class="fa fa-angle-right"></i>
+
+                                    <span>
+
+                                        <i class="fa-solid fa-file-invoice"></i>
+
+                                        Customs Brokerage
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
                                 </a>
+
                             </li>
 
                             <li>
+
                                 <a href="reverse-logistics.html">
-                                    <i class="fa-solid fa-truck-fast"></i>
-                                    Reverse Logistics
-                                    <i class="fa fa-angle-right"></i>
+
+                                    <span>
+
+                                        <i class="fa-solid fa-truck-fast"></i>
+
+                                        Reverse Logistics
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
                                 </a>
+
                             </li>
 
                             <li>
+
                                 <a href="dangerous-goods.html">
-                                    <i class="fa-solid fa-biohazard"></i>
-                                    Dangerous Goods Handling
-                                    <i class="fa fa-angle-right"></i>
+
+                                    <span>
+
+                                        <i class="fa-solid fa-biohazard"></i>
+
+                                        Dangerous Goods Handling
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
+
                                 </a>
+
                             </li>
 
                         </ul>
 
                     </div>
 
-                    <!-- ===========================
-                        DOWNLOAD BOX
-                    =========================== -->
+                    <!-- ==========================================
+                         CONTACT CARD
+                    =========================================== -->
 
-                   
+                    <div class="download-box mt-4">
 
-                </aside>
+                        <h4>
 
-                <!-- ===========================
-                    RIGHT CONTENT
-                =========================== -->
+                            Need Project Cargo Support?
 
-                <div class="col-lg-8 ps-lg-5">
-                    <!-- ===========================
-IMAGE SECTION
-=========================== -->
+                        </h4>
 
-<div class="row g-3 mb-5">
+                        <p>
 
-    <div class="col-md-6">
-        <img src="images/projectcargo1.jpeg"
-             class="img-fluid rounded"
-             alt="Project Cargo">
-    </div>
+                            Our specialists provide complete planning,
+                            heavy lift transportation, route surveys,
+                            customs clearance and end-to-end project
+                            logistics solutions worldwide.
 
-    <div class="col-md-6">
-        <img src="images/projectcargo2.jpeg"
-             class="img-fluid rounded"
-             alt="Project Cargo">
+                        </p>
+
+                        <a href="contact.html"
+                           class="btn btn-success w-100">
+
+                            <i class="fa-solid fa-phone"></i>
+
+                            Contact Our Team
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+            <!-- ==========================================
+                 RIGHT CONTENT STARTS
+            =========================================== -->
+
+            <div class="col-lg-8 service-content">
+                <!-- ==========================================
+     IMAGE GALLERY
+========================================== -->
+
+<div class="service-images mb-section">
+
+    <div class="row g-4">
+
+        <div class="col-md-6">
+
+            <div class="image-box">
+
+                <img src="images/projectcargo1.jpeg"
+                     alt="Project Cargo Logistics">
+
+            </div>
+
+        </div>
+
+        <div class="col-md-6">
+
+            <div class="image-box">
+
+                <img src="images/projectcargo2.jpeg"
+                     alt="Heavy Lift Cargo">
+
+            </div>
+
+        </div>
+
     </div>
 
 </div>
 
-<!-- ===========================
-OVERVIEW
-=========================== -->
-
-<!-- ===========================
-OVERVIEW
-=========================== -->
+<!-- ==========================================
+     OVERVIEW
+========================================== -->
 
 <div class="overview">
 
-    <h2>Project Cargo</h2>
+    <h2>
+        Project Cargo Services
+    </h2>
 
     <p>
-        <strong>AryanGlob Logistics Pvt. Ltd.</strong> specializes in
-        <strong>Project Cargo, Heavy Lift, Over-Dimensional (ODC), and
-        Out-of-Gauge (OOG) shipments</strong>, providing complete logistics
-        solutions for complex and oversized cargo movements. Our experienced
-        team ensures detailed planning, precise coordination, and efficient
-        execution to deliver every project safely, on time, and within budget.
+
+        <strong>AryanGlob Logistics</strong> specializes in comprehensive
+        <strong>Project Cargo, Heavy Lift, Over-Dimensional Cargo (ODC),
+        Out-of-Gauge (OOG), and Break Bulk Logistics</strong> solutions.
+        We manage complex transportation projects from planning to final
+        delivery with precision, safety, and operational excellence.
+
     </p>
 
     <p>
-        We offer customized turnkey logistics solutions, from
-        <strong>order planning and documentation to transportation,
-        customs clearance, and final delivery</strong>. With extensive
-        knowledge of international routes and a strong global network,
-        we handle heavy machinery, industrial equipment, rolling stock,
-        and other large indivisible cargo with the highest level of
-        professionalism.
+
+        Our experienced logistics professionals coordinate every stage of
+        the shipment including engineering studies, route surveys,
+        transportation planning, customs documentation, port handling,
+        crane operations and final installation support.
+
     </p>
 
     <p>
-        <strong>
-            Best Project Cargo Services – Safe • Efficient • End-to-End Logistics
-        </strong>
+
+        Whether transporting industrial machinery, power plant equipment,
+        construction materials, transformers or oversized cargo, we
+        provide customized logistics solutions backed by our global
+        transportation network and experienced project management team.
+
     </p>
 
-    <a href="contact.html" class="btn btn-success">
-        Enquiry Now
+    <a href="contact.html"
+       class="btn btn-success mt-3">
+
+        <i class="fa-solid fa-paper-plane"></i>
+
+        Request a Quote
+
     </a>
 
 </div>
 
-<!-- ===========================
-PROJECT CARGO EXPERTISE
-=========================== -->
+<!-- ==========================================
+     PROJECT CARGO EXPERTISE
+========================================== -->
 
-<div class="reason-section">
+<div class="project-section">
 
     <h2>
-        PROJECT CARGO NEEDS SPECIAL HANDLING...
+
+        Our Project Cargo Expertise
+
     </h2>
 
-    <p class="mb-4">
-        Our Project Cargo Division specializes in planning, coordinating,
-        and executing transportation for oversized and heavy-lift cargo.
-        We ensure every shipment is handled safely through experienced
-        logistics professionals and trusted global partners.
+    <p>
+
+        AryanGlob Logistics delivers complete turnkey logistics solutions
+        for industries requiring specialized cargo transportation with
+        careful planning, safety compliance and timely execution.
+
     </p>
 
-    <ul class="list-unstyled project-list">
+    <ul class="project-list">
 
-        <li class="mb-3">
-            <i class="fa-solid fa-circle-check text-success me-2"></i>
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
             Heavy Lift Cargo Transportation
+
         </li>
 
-        <li class="mb-3">
-            <i class="fa-solid fa-circle-check text-success me-2"></i>
-            Breakbulk & ODC Cargo Handling
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Over-Dimensional Cargo (ODC)
+
         </li>
 
-        <li class="mb-3">
-            <i class="fa-solid fa-circle-check text-success me-2"></i>
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Out-of-Gauge (OOG) Cargo Handling
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Break Bulk Cargo Solutions
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
             Route Survey & Feasibility Planning
+
         </li>
 
-        <li class="mb-3">
-            <i class="fa-solid fa-circle-check text-success me-2"></i>
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
             Port Handling & Customs Clearance
+
         </li>
 
-        <li class="mb-3">
-            <i class="fa-solid fa-circle-check text-success me-2"></i>
-            Multi-Modal Transportation Solutions
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Multi-Modal Transportation
+
         </li>
 
-        <li class="mb-3">
-            <i class="fa-solid fa-circle-check text-success me-2"></i>
-            Industrial Plant & Machinery Movement
-        </li>
+        <li>
 
-        <li class="mb-3">
-            <i class="fa-solid fa-circle-check text-success me-2"></i>
-            End-to-End Project Logistics Management
+            <i class="fa-solid fa-circle-check"></i>
+
+            End-to-End Project Logistics
+
         </li>
 
     </ul>
 
 </div>
-<!-- ===========================
-REASONS FOR USING PROJECT CARGO
-=========================== -->
 
-<div class="reason-section mt-5">
+<!-- ==========================================
+     FEATURE GRID
+========================================== -->
+
+<div class="feature-grid">
+
+    <div class="feature-item">
+
+        <i class="fa-solid fa-industry"></i>
+
+        <h5>
+
+            Heavy Lift
+
+        </h5>
+
+        <p>
+
+            Safe transportation of heavy industrial equipment,
+            machinery and oversized cargo.
+
+        </p>
+
+    </div>
+
+    <div class="feature-item">
+
+        <i class="fa-solid fa-route"></i>
+
+        <h5>
+
+            Route Planning
+
+        </h5>
+
+        <p>
+
+            Professional route surveys and engineering studies for
+            complex transportation projects.
+
+        </p>
+
+    </div>
+
+    <div class="feature-item">
+
+        <i class="fa-solid fa-truck-ramp-box"></i>
+
+        <h5>
+
+            Specialized Equipment
+
+        </h5>
+
+        <p>
+
+            Modern trailers, cranes and lifting equipment for
+            challenging cargo movements.
+
+        </p>
+
+    </div>
+
+    <div class="feature-item">
+
+        <i class="fa-solid fa-globe"></i>
+
+        <h5>
+
+            Global Project Network
+
+        </h5>
+
+        <p>
+
+            International logistics support with experienced
+            project cargo specialists worldwide.
+
+        </p>
+
+    </div>
+
+</div>
+<!-- ==========================================
+     REASONS FOR CHOOSING PROJECT CARGO
+========================================== -->
+
+<div class="reason-section">
 
     <h2>
-        Reasons For Using Project Cargo?
+
+        Reasons for Choosing Project Cargo
+
     </h2>
+
+    <p>
+
+        Project Cargo logistics requires specialized planning,
+        engineering expertise and precise execution. AryanGlob
+        Logistics delivers customized transportation solutions
+        for oversized, heavy lift and complex industrial cargo
+        with complete safety and operational excellence.
+
+    </p>
+
+    <!-- ========================================== -->
 
     <div class="reason-card">
 
@@ -350,22 +781,33 @@ REASONS FOR USING PROJECT CARGO
         </div>
 
         <div class="icon">
+
             <i class="fa-solid fa-industry"></i>
+
         </div>
 
         <div class="content">
 
-            <h4>Heavy Lift Expertise</h4>
+            <h4>
+
+                Heavy Lift Expertise
+
+            </h4>
 
             <p>
-                Specialized handling and transportation of oversized,
-                heavy and high-value industrial cargo with complete
-                operational safety.
+
+                We specialize in transporting transformers,
+                turbines, generators, construction equipment
+                and heavy industrial machinery using advanced
+                lifting and transportation equipment.
+
             </p>
 
         </div>
 
     </div>
+
+    <!-- ========================================== -->
 
     <div class="reason-card">
 
@@ -374,21 +816,32 @@ REASONS FOR USING PROJECT CARGO
         </div>
 
         <div class="icon">
-            <i class="fa-solid fa-route"></i>
+
+            <i class="fa-solid fa-ruler-combined"></i>
+
         </div>
 
         <div class="content">
 
-            <h4>Route Planning</h4>
+            <h4>
+
+                Engineering & Route Survey
+
+            </h4>
 
             <p>
-                Detailed route surveys and transport planning ensure
-                smooth movement of oversized cargo without delays.
+
+                Every shipment begins with detailed engineering
+                studies, route surveys and feasibility analysis
+                to ensure safe and efficient cargo movement.
+
             </p>
 
         </div>
 
     </div>
+
+    <!-- ========================================== -->
 
     <div class="reason-card">
 
@@ -397,21 +850,33 @@ REASONS FOR USING PROJECT CARGO
         </div>
 
         <div class="icon">
-            <i class="fa-solid fa-ship"></i>
+
+            <i class="fa-solid fa-truck-ramp-box"></i>
+
         </div>
 
         <div class="content">
 
-            <h4>Multi-Modal Solutions</h4>
+            <h4>
+
+                Specialized Equipment
+
+            </h4>
 
             <p>
-                Integrated road, sea and air transport solutions provide
-                maximum flexibility for every project shipment.
+
+                Our fleet includes hydraulic trailers,
+                modular trailers, cranes and heavy lifting
+                equipment suitable for oversized cargo
+                transportation projects.
+
             </p>
 
         </div>
 
     </div>
+
+    <!-- ========================================== -->
 
     <div class="reason-card">
 
@@ -420,22 +885,33 @@ REASONS FOR USING PROJECT CARGO
         </div>
 
         <div class="icon">
-            <i class="fa-solid fa-shield-halved"></i>
+
+            <i class="fa-solid fa-route"></i>
+
         </div>
 
         <div class="content">
 
-            <h4>Safe Cargo Handling</h4>
+            <h4>
+
+                Multi-Modal Logistics
+
+            </h4>
 
             <p>
-                Every shipment is managed by experienced professionals
-                using modern equipment and internationally accepted
-                safety standards.
+
+                We integrate road, rail, air and ocean
+                transportation to provide complete end-to-end
+                project cargo solutions for domestic and
+                international shipments.
+
             </p>
 
         </div>
 
     </div>
+
+    <!-- ========================================== -->
 
     <div class="reason-card">
 
@@ -444,22 +920,32 @@ REASONS FOR USING PROJECT CARGO
         </div>
 
         <div class="icon">
-            <i class="fa-solid fa-globe"></i>
+
+            <i class="fa-solid fa-shield-halved"></i>
+
         </div>
 
         <div class="content">
 
-            <h4>Global Network</h4>
+            <h4>
+
+                Safety & Compliance
+
+            </h4>
 
             <p>
-                Worldwide logistics partnerships enable efficient
-                transportation of project cargo across international
-                destinations.
+
+                Every project follows strict safety standards,
+                international transportation regulations and
+                quality procedures to minimize operational risks.
+
             </p>
 
         </div>
 
     </div>
+
+    <!-- ========================================== -->
 
     <div class="reason-card">
 
@@ -468,39 +954,326 @@ REASONS FOR USING PROJECT CARGO
         </div>
 
         <div class="icon">
-            <i class="fa-solid fa-clock"></i>
+
+            <i class="fa-solid fa-earth-americas"></i>
+
         </div>
 
         <div class="content">
 
-            <h4>On-Time Delivery</h4>
+            <h4>
+
+                Global Project Network
+
+            </h4>
 
             <p>
-                Careful scheduling and execution ensure every project
-                reaches its destination within the committed timeline.
+
+                Our worldwide logistics network and experienced
+                partners ensure seamless project execution across
+                ports, industrial zones and international markets.
+
             </p>
 
         </div>
 
     </div>
 
-    <div class="text-center mt-4">
+</div>
 
-        <a href="contact.html" class="btn btn-success">
-            Enquiry Now
-        </a>
+<!-- ==========================================
+     CALL TO ACTION
+========================================== -->
+
+<div class="cta-box">
+
+    <h2>
+
+        Need Expert Project Cargo Solutions?
+
+    </h2>
+
+    <p>
+
+        AryanGlob Logistics delivers reliable heavy lift,
+        oversized cargo and industrial logistics solutions
+        with complete planning, engineering support and
+        worldwide transportation services.
+
+    </p>
+
+    <a href="contact.html"
+       class="btn btn-success">
+
+        <i class="fa-solid fa-paper-plane"></i>
+
+        Request a Free Quote
+
+    </a>
+
+</div>
+            </div>
+
+        </div>
 
     </div>
 
-</div>
-
-</div>
-</div>
-</div>
-
 </section>
+
+<!-- ==========================================
+     FOOTER
+========================================== -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <!-- Company -->
+
+            <div class="col-lg-4">
+
+                <h4>
+
+                    AryanGlob Logistics
+
+                </h4>
+
+                <p>
+
+                    AryanGlob Logistics provides comprehensive logistics,
+                    freight forwarding and supply chain solutions with
+                    expertise in Air Freight, Ocean Freight, Project Cargo,
+                    Customs Brokerage and Reverse Logistics across the globe.
+
+                </p>
+
+                <div class="footer-social">
+
+                    <a href="#" aria-label="Facebook">
+
+                        <i class="fab fa-facebook-f"></i>
+
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+
+                        <i class="fab fa-linkedin-in"></i>
+
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+
+                        <i class="fab fa-instagram"></i>
+
+                    </a>
+
+                    <a href="#" aria-label="Twitter">
+
+                        <i class="fab fa-x-twitter"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div class="col-lg-4">
+
+                <h4>
+
+                    Quick Links
+
+                </h4>
+
+                <ul>
+
+                    <li>
+
+                        <a href="index.html">
+
+                            Home
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="aboutus.html">
+
+                            About Us
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="services.html">
+
+                            Services
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a href="contact.html">
+
+                            Contact Us
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div class="col-lg-4 footer-contact">
+
+                <h4>
+
+                    Contact Information
+
+                </h4>
+
+                <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span>
+
+                        Office No. 01,
+                        Gat No. 1574,
+                        Shelarwasti,
+                        Chikhali,
+                        Pimpri-Chinchwad,
+                        Pune – 411062,
+                        Maharashtra,
+                        India
+
+                    </span>
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>
+
+                        +91 XXXXXXXXXX
+
+                    </span>
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+
+                        info@aryangloblogistics.com
+
+                    </span>
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    <span>
+
+                        Monday – Saturday
+
+                        <br>
+
+                        09:00 AM – 06:00 PM
+
+                    </span>
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © <span id="year"></span>
+                AryanGlob Logistics.
+                All Rights Reserved.
+
+            </p>
+
+            <p>
+
+                Designed & Developed for
+                <strong>AryanGlob Logistics</strong>
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ==========================================
+     BACK TO TOP
+========================================== -->
+
+<a href="#"
+   class="back-top"
+   aria-label="Back to Top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</a>
+
+<!-- ==========================================
+     JAVASCRIPT
+========================================== -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+<script>
+
+const backTop = document.querySelector(".back-top");
+
+window.addEventListener("scroll", function () {
+
+    if (window.scrollY > 300) {
+
+        backTop.style.display = "flex";
+
+    } else {
+
+        backTop.style.display = "none";
+
+    }
+
+});
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+</script>
+
 </body>
+
 </html>

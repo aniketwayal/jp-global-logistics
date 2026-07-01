@@ -3,90 +3,249 @@
 
 <head>
 
+    <!-- ==========================================
+         META TAGS
+    =========================================== -->
+
     <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Air Freight | AryanGlob Logistics </title>
+    <meta name="description"
+        content="AryanGlob Logistics provides reliable Ocean Freight services including FCL, LCL, Break Bulk, Project Cargo and worldwide sea freight solutions.">
 
-    <!-- Bootstrap -->
+    <meta name="keywords"
+        content="Ocean Freight, Sea Freight, FCL, LCL, Shipping, Import Export, Logistics, AryanGlob Logistics">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="author"
+        content="AryanGlob Logistics">
 
-    <!-- Font Awesome -->
+    <meta name="robots"
+        content="index, follow">
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <title>
+        Ocean Freight | AryanGlob Logistics
+    </title>
 
-    <!-- Google Font -->
+    <!-- ==========================================
+         FAVICON
+    =========================================== -->
+
+    <link rel="icon"
+          type="image/png"
+          href="images/favicon.png">
+
+    <!-- ==========================================
+         GOOGLE FONT
+    =========================================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- ==========================================
+         BOOTSTRAP
+    =========================================== -->
 
-    <link rel="stylesheet" href="css/oceanfreight.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- ==========================================
+         FONT AWESOME
+    =========================================== -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- ==========================================
+         COMMON SERVICE CSS
+    =========================================== -->
+
+    <link rel="stylesheet"
+          href="css/service.css">
 
 </head>
 
 <body>
 
-
-   <body>
-
-<!-- =========================
+<!-- ==========================================
      NAVBAR
-========================= -->
+========================================== -->
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark">
 
     <div class="container">
 
-        <a class="navbar-brand fw-bold" href="index.html">
-            AryanGlob Logistics 
+        <a class="navbar-brand"
+           href="index.html">
+
+            AryanGlob Logistics
+
         </a>
 
         <button class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#menu">
+                data-bs-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
 
             <span class="navbar-toggler-icon"></span>
 
         </button>
 
-        <div class="collapse navbar-collapse" id="menu">
+        <div class="collapse navbar-collapse"
+             id="mainMenu">
 
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+
+                    <a class="nav-link"
+                       href="index.html">
+
+                        Home
+
+                    </a>
+
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About</a>
+
+                    <a class="nav-link"
+                       href="aboutus.html">
+
+                        About Us
+
+                    </a>
+
                 </li>
 
                 <li class="nav-item dropdown">
 
-                    <a class="nav-link dropdown-toggle"
+                    <a class="nav-link dropdown-toggle active"
                        href="services.html"
                        role="button"
-                       data-bs-toggle="dropdown">
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+
                         Services
+
                     </a>
 
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="air-freight.html">Air Freight</a></li>
-                        <li><a class="dropdown-item" href="oceanfreight.html">Ocean Freight</a></li>
-                        <li><a class="dropdown-item" href="project-cargo.html">Project Cargo</a></li>
-                        <li><a class="dropdown-item" href="custom-brokerage.html">Custom Brokerage</a></li>
-                        <li><a class="dropdown-item" href="reverse-logistics.html">Reverse Logistics</a></li>
-                        <li><a class="dropdown-item" href="dangerous-goods.html">Dangerous Goods Handling</a></li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="air-freight.html">
+
+                                <i class="fa-solid fa-plane me-2"></i>
+
+                                Air Freight
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item active"
+                               href="oceanfreight.html">
+
+                                <i class="fa-solid fa-ship me-2"></i>
+
+                                Ocean Freight
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="project-cargo.html">
+
+                                <i class="fa-solid fa-box me-2"></i>
+
+                                Project Cargo
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="custom-brokerage.html">
+
+                                <i class="fa-solid fa-file-invoice me-2"></i>
+
+                                Customs Brokerage
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="reverse-logistics.html">
+
+                                <i class="fa-solid fa-truck-fast me-2"></i>
+
+                                Reverse Logistics
+
+                            </a>
+
+                        </li>
+
+                        <li>
+
+                            <a class="dropdown-item"
+                               href="dangerous-goods.html">
+
+                                <i class="fa-solid fa-biohazard me-2"></i>
+
+                                Dangerous Goods Handling
+
+                            </a>
+
+                        </li>
+
                     </ul>
 
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+
+                    <a class="nav-link"
+                       href="contact.html">
+
+                        Contact
+
+                    </a>
+
+                </li>
+
+                <li class="nav-item ms-lg-3">
+
+                    <a href="contact.html"
+                       class="btn btn-success">
+
+                        Get Quote
+
+                    </a>
+
                 </li>
 
             </ul>
@@ -96,77 +255,116 @@
     </div>
 
 </nav>
+<!-- ==========================================
+     PAGE BANNER
+========================================== -->
 
-<!-- ===========================
-PAGE BANNER
-=========================== -->
+<section class="page-banner ocean-banner">
 
-    <section class="service-banner ocean-banner">
-        <div class="overlay"></div>
+    <div class="overlay"></div>
 
-        <div class="container">
-            <div class="banner-content">
-                <h1>Ocean Freight</h1>
+    <div class="container">
 
-                <div class="breadcrumb">
-                    <a href="index.html">HOME</a>
-                    <span>›</span>
-                    <a href="services.html">SERVICES</a>
-                    <span>›</span>
-                    <span>OCEAN FREIGHT</span>
-                </div>
-            </div>
+        <div class="banner-content">
+
+            <h1>
+                Ocean Freight
+            </h1>
+
+            <nav aria-label="breadcrumb">
+
+                <ol class="breadcrumb justify-content-center">
+
+                    <li class="breadcrumb-item">
+
+                        <a href="index.html">
+                            Home
+                        </a>
+
+                    </li>
+
+                    <li class="breadcrumb-item">
+
+                        <a href="services.html">
+                            Services
+                        </a>
+
+                    </li>
+
+                    <li class="breadcrumb-item active text-white"
+                        aria-current="page">
+
+                        Ocean Freight
+
+                    </li>
+
+                </ol>
+
+            </nav>
+
         </div>
-    </section>
 
+    </div>
 
+</section>
 
-    <!-- ===========================
-MAIN SECTION
-=========================== -->
+<!-- ==========================================
+     MAIN SECTION
+========================================== -->
 
-    <section class="service-page">
+<section class="service-page">
 
-        <div class="container">
+    <div class="container">
 
-            <div class="row align-items-start">
+        <div class="row">
 
+            <!-- ==========================================
+                 LEFT SIDEBAR
+            =========================================== -->
 
-                <!-- ===========================
-LEFT SIDEBAR
-=========================== -->
+            <aside class="col-lg-4">
 
-                <aside class="col-lg-4 mb-5 mb-lg-0">
+                <div class="sticky-sidebar">
 
                     <div class="service-sidebar">
 
-                        <h3>Services</h3>
+                        <h3>
+                            Our Services
+                        </h3>
 
                         <ul>
 
-                            <li class="active">
+                            <li>
 
                                 <a href="air-freight.html">
 
-                                    <i class="fa-solid fa-plane"></i>
+                                    <span>
 
-                                    Air Freight
+                                        <i class="fa-solid fa-plane"></i>
 
-                                    <i class="fa fa-angle-right"></i>
+                                        Air Freight
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
 
                                 </a>
 
                             </li>
 
-                            <li>
+                            <li class="active">
 
                                 <a href="oceanfreight.html">
 
-                                    <i class="fa-solid fa-ship"></i>
+                                    <span>
 
-                                    Ocean Freight
+                                        <i class="fa-solid fa-ship"></i>
 
-                                    <i class="fa fa-angle-right"></i>
+                                        Ocean Freight
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
 
                                 </a>
 
@@ -176,11 +374,15 @@ LEFT SIDEBAR
 
                                 <a href="project-cargo.html">
 
-                                    <i class="fa-solid fa-box"></i>
+                                    <span>
 
-                                    Project Cargo
+                                        <i class="fa-solid fa-box"></i>
 
-                                    <i class="fa fa-angle-right"></i>
+                                        Project Cargo
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
 
                                 </a>
 
@@ -190,11 +392,15 @@ LEFT SIDEBAR
 
                                 <a href="custom-brokerage.html">
 
-                                    <i class="fa-solid fa-file-invoice"></i>
+                                    <span>
 
-                                    Custom Brokerage
+                                        <i class="fa-solid fa-file-invoice"></i>
 
-                                    <i class="fa fa-angle-right"></i>
+                                        Customs Brokerage
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
 
                                 </a>
 
@@ -204,11 +410,15 @@ LEFT SIDEBAR
 
                                 <a href="reverse-logistics.html">
 
-                                    <i class="fa-solid fa-truck-fast"></i>
+                                    <span>
 
-                                    Reverse Logistics
+                                        <i class="fa-solid fa-truck-fast"></i>
 
-                                    <i class="fa fa-angle-right"></i>
+                                        Reverse Logistics
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
 
                                 </a>
 
@@ -218,11 +428,15 @@ LEFT SIDEBAR
 
                                 <a href="dangerous-goods.html">
 
-                                    <i class="fa-solid fa-biohazard"></i>
+                                    <span>
 
-                                    Dangerous Goods Handling
+                                        <i class="fa-solid fa-biohazard"></i>
 
-                                    <i class="fa fa-angle-right"></i>
+                                        Dangerous Goods Handling
+
+                                    </span>
+
+                                    <i class="fa-solid fa-arrow-right"></i>
 
                                 </a>
 
@@ -232,280 +446,764 @@ LEFT SIDEBAR
 
                     </div>
 
+                    <!-- Optional Contact Card -->
 
+                    <div class="download-box mt-4">
 
-                    <!-- Download Box -->
-
-
-                </aside>
-
-
-
-                <!-- ===========================
-RIGHT CONTENT
-=========================== -->
-
-                <div class="col-lg-8 ps-lg-5">
-
-                    <div class="row g-3 mb-5">
-
-                        <div class="col-md-6">
-                            <img src="images/Ocean-Freight1.png" class="img-fluid" alt="Ocean Freight">
-                        </div>
-
-                        <div class="col-md-6">
-                            <img src="images/ocean1.jpeg" class="img-fluid" alt="Ocean Freight">
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="overview">
-
-                        <h2>Overview</h2>
+                        <h4>
+                            Need Assistance?
+                        </h4>
 
                         <p>
-                            <strong>AryanGlob Logistics Pvt. Ltd.</strong> provides reliable and
-                            cost-effective <strong>Ocean Freight Services</strong> for both
-                            Import and Export shipments. We offer
-                            <strong>FCL (Full Container Load), LCL (Less than Container Load),
-                                Break Bulk, Project Cargo, and Out-of-Gauge (OOG) Cargo</strong>
-                            solutions with complete <strong>door-to-door logistics</strong>.
+
+                            Our logistics experts are available to help you
+                            choose the most efficient ocean freight solution
+                            for your business.
+
                         </p>
 
-                        <p>
-                            Working with <strong>all major shipping lines</strong> operating to
-                            and from India, we ensure competitive freight rates, secure cargo
-                            handling, and timely deliveries. From order placement to final
-                            delivery, our experienced team maintains complete control over every
-                            stage of your shipment.
-                        </p>
+                        <a href="contact.html"
+                           class="btn btn-success w-100">
 
-                        <p>
-                            Our ocean freight expertise includes handling
-                            <strong>large-volume shipments</strong> to and from
-                            <strong>Europe, the USA, the Far East, the Middle East, Africa,
-                                and other global destinations.</strong> We specialize in planning
-                            and coordinating oversized and project cargo, delivering economical
-                            and efficient transportation while meeting strict delivery schedules.
-                        </p>
+                            <i class="fa-solid fa-phone"></i>
 
-                        <p>
-                            <strong>
-                                Best Ocean Freight Services – Reliable • Cost-Effective • Global Reach
-                            </strong>
-                        </p>
+                            Contact Us
 
-                        <a href="contact.html" class="btn btn-success">
-                            Enquiry Now
                         </a>
-
-                    </div>
-
-
-
-                    <!-- Reasons -->
-
-                    <div class="reason-section">
-
-                        <h2>
-
-                            Reasons For Using Air Freight?
-
-                        </h2>
-
-                        <div class="reason-card">
-
-                            <div class="number">
-
-                                01
-
-                            </div>
-
-                            <div class="icon">
-
-                                <i class="fa-solid fa-stopwatch"></i>
-
-                            </div>
-
-                            <div class="content">
-
-                                <h4>The Fastest Method</h4>
-
-                                <p>
-
-                                    Transporting urgent cargo through air is the fastest option available.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="reason-card">
-
-                            <div class="number">
-
-                                02
-
-                            </div>
-
-                            <div class="icon">
-
-                                <i class="fa-solid fa-earth-americas"></i>
-
-                            </div>
-
-                            <div class="content">
-
-                                <h4>Worldwide Delivery</h4>
-
-                                <p>
-
-                                    Deliver goods across the globe quickly and efficiently.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="reason-card">
-
-                            <div class="number">
-
-                                03
-
-                            </div>
-
-                            <div class="icon">
-
-                                <i class="fa-solid fa-shield-halved"></i>
-
-                            </div>
-
-                            <div class="content">
-
-                                <h4>Safe & Reliable</h4>
-
-                                <p>
-
-                                    Professional handling with complete shipment security.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="reason-card">
-
-                            <div class="number">
-
-                                04
-
-                            </div>
-
-                            <div class="icon">
-
-                                <i class="fa-solid fa-location-dot"></i>
-
-                            </div>
-
-                            <div class="content">
-
-                                <h4>Track Your Shipment</h4>
-
-                                <p>
-
-                                    Real-time shipment tracking from pickup to delivery.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="reason-card">
-
-                            <div class="number">
-
-                                05
-
-                            </div>
-
-                            <div class="icon">
-
-                                <i class="fa-solid fa-boxes-stacked"></i>
-
-                            </div>
-
-                            <div class="content">
-
-                                <h4>Any Shipment Size</h4>
-
-                                <p>
-
-                                    From small parcels to oversized cargo.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="reason-card">
-
-                            <div class="number">
-
-                                06
-
-                            </div>
-
-                            <div class="icon">
-
-                                <i class="fa-solid fa-route"></i>
-
-                            </div>
-
-                            <div class="content">
-
-                                <h4>Multi-Modal Transport</h4>
-
-                                <p>
-
-                                    Air, sea and road solutions under one logistics network.
-
-                                </p>
-
-                            </div>
-
-                        </div>
-
-                        <div class="text-center mt-4">
-
-                            <a href="contact.html" class="btn btn-success">
-
-                                Enquiry Now
-
-                            </a>
-
-                        </div>
 
                     </div>
 
                 </div>
 
+            </aside>
+
+            <!-- ==========================================
+                 RIGHT CONTENT STARTS
+            =========================================== -->
+
+            <div class="col-lg-8 service-content">
+
+                <!-- ==========================================
+     IMAGE GALLERY
+========================================== -->
+
+<div class="service-images mb-section">
+
+    <div class="row g-4">
+
+        <div class="col-md-6">
+
+            <div class="image-box">
+
+                <img src="images/Ocean-Freight1.png"
+                     alt="Ocean Freight Container Shipping">
+
             </div>
 
         </div>
 
-    </section>
+        <div class="col-md-6">
 
+            <div class="image-box">
 
+                <img src="images/ocean1.jpeg"
+                     alt="International Ocean Cargo">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ==========================================
+     OVERVIEW
+========================================== -->
+
+<div class="overview">
+
+    <h2>
+        Ocean Freight Services
+    </h2>
+
+    <p>
+
+        <strong>AryanGlob Logistics</strong> provides dependable and
+        cost-effective Ocean Freight solutions for both import and export
+        shipments worldwide. Our experienced logistics professionals work
+        closely with major international shipping lines to ensure reliable,
+        secure and timely cargo movement.
+
+    </p>
+
+    <p>
+
+        We specialize in <strong>Full Container Load (FCL)</strong>,
+        <strong>Less than Container Load (LCL)</strong>,
+        Break Bulk Cargo, Project Cargo and Out-of-Gauge (OOG)
+        transportation. Whether your shipment is small or oversized,
+        we provide customized logistics solutions to meet your business
+        requirements.
+
+    </p>
+
+    <p>
+
+        Our comprehensive services include booking, documentation,
+        customs clearance, container handling, cargo tracking and
+        final delivery, ensuring a seamless shipping experience
+        from origin to destination.
+
+    </p>
+
+    <a href="contact.html"
+       class="btn btn-success mt-3">
+
+        <i class="fa-solid fa-paper-plane"></i>
+
+        Request a Quote
+
+    </a>
+
+</div>
+
+<!-- ==========================================
+     KEY SERVICES
+========================================== -->
+
+<div class="project-section">
+
+    <h2>
+
+        Our Ocean Freight Solutions
+
+    </h2>
+
+    <p>
+
+        AryanGlob Logistics offers flexible and reliable ocean
+        transportation services designed to optimize your international
+        supply chain while minimizing transportation costs.
+
+    </p>
+
+    <ul class="project-list">
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Full Container Load (FCL) Shipping
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Less than Container Load (LCL)
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Import & Export Documentation
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Customs Clearance Services
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Break Bulk Cargo Handling
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Project & OOG Cargo Management
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Door-to-Door Delivery
+
+        </li>
+
+        <li>
+
+            <i class="fa-solid fa-circle-check"></i>
+
+            Global Shipping Network
+
+        </li>
+
+    </ul>
+
+</div>
+
+<!-- ==========================================
+     SERVICE FEATURES
+========================================== -->
+
+<div class="feature-grid">
+
+    <div class="feature-item">
+
+        <i class="fa-solid fa-ship"></i>
+
+        <h5>
+
+            Global Shipping
+
+        </h5>
+
+        <p>
+
+            Reliable sea freight services connecting major ports across
+            the world.
+
+        </p>
+
+    </div>
+
+    <div class="feature-item">
+
+        <i class="fa-solid fa-boxes-stacked"></i>
+
+        <h5>
+
+            FCL & LCL Solutions
+
+        </h5>
+
+        <p>
+
+            Flexible shipping options suitable for every cargo size and
+            business requirement.
+
+        </p>
+
+    </div>
+
+    <div class="feature-item">
+
+        <i class="fa-solid fa-shield-halved"></i>
+
+        <h5>
+
+            Safe Cargo Handling
+
+        </h5>
+
+        <p>
+
+            Professional cargo handling with complete shipment safety
+            and compliance.
+
+        </p>
+
+    </div>
+
+    <div class="feature-item">
+
+        <i class="fa-solid fa-globe"></i>
+
+        <h5>
+
+            Worldwide Network
+
+        </h5>
+
+        <p>
+
+            Strong partnerships with leading shipping lines ensuring
+            dependable global transportation.
+
+        </p>
+
+    </div>
+
+</div>
+<!-- ==========================================
+     REASONS FOR CHOOSING OCEAN FREIGHT
+========================================== -->
+
+<div class="reason-section">
+
+    <h2>
+        Reasons for Choosing Ocean Freight
+    </h2>
+
+    <p>
+
+        Ocean Freight is the most economical and dependable solution for
+        transporting large volumes of cargo across international markets.
+        AryanGlob Logistics offers customized sea freight services that
+        ensure safe handling, competitive pricing and reliable transit
+        schedules.
+
+    </p>
+
+    <!-- ========================================== -->
+
+    <div class="reason-card">
+
+        <div class="number">
+            01
+        </div>
+
+        <div class="icon">
+            <i class="fa-solid fa-ship"></i>
+        </div>
+
+        <div class="content">
+
+            <h4>
+                Full Container Load (FCL)
+            </h4>
+
+            <p>
+
+                Dedicated container shipping provides maximum security,
+                faster handling and complete control over your cargo.
+                Ideal for high-volume international shipments requiring
+                reliable transit schedules.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ========================================== -->
+
+    <div class="reason-card">
+
+        <div class="number">
+            02
+        </div>
+
+        <div class="icon">
+            <i class="fa-solid fa-boxes-stacked"></i>
+        </div>
+
+        <div class="content">
+
+            <h4>
+                Less than Container Load (LCL)
+            </h4>
+
+            <p>
+
+                Share container space and pay only for the volume you use.
+                LCL is an economical option for small and medium shipments
+                without compromising safety or reliability.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ========================================== -->
+
+    <div class="reason-card">
+
+        <div class="number">
+            03
+        </div>
+
+        <div class="icon">
+            <i class="fa-solid fa-shield-halved"></i>
+        </div>
+
+        <div class="content">
+
+            <h4>
+                Cargo Insurance & Safety
+            </h4>
+
+            <p>
+
+                Comprehensive cargo protection minimizes transportation
+                risks and provides financial security against unforeseen
+                events during international transit.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ========================================== -->
+
+    <div class="reason-card">
+
+        <div class="number">
+            04
+        </div>
+
+        <div class="icon">
+            <i class="fa-solid fa-warehouse"></i>
+        </div>
+
+        <div class="content">
+
+            <h4>
+                Warehousing & Distribution
+            </h4>
+
+            <p>
+
+                Integrated warehousing, inventory management and nationwide
+                distribution services simplify your supply chain and improve
+                delivery efficiency.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ========================================== -->
+
+    <div class="reason-card">
+
+        <div class="number">
+            05
+        </div>
+
+        <div class="icon">
+            <i class="fa-solid fa-route"></i>
+        </div>
+
+        <div class="content">
+
+            <h4>
+                Global Multi-Modal Logistics
+            </h4>
+
+            <p>
+
+                Combine Ocean Freight with road, rail and air transportation
+                for optimized delivery schedules, competitive freight costs
+                and complete end-to-end logistics solutions.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ========================================== -->
+
+    <div class="reason-card">
+
+        <div class="number">
+            06
+        </div>
+
+        <div class="icon">
+            <i class="fa-solid fa-globe"></i>
+        </div>
+
+        <div class="content">
+
+            <h4>
+                Worldwide Port Connectivity
+            </h4>
+
+            <p>
+
+                Through our global network of shipping partners, we provide
+                seamless import and export services connecting major ports
+                across Asia, Europe, the Middle East, Africa and the Americas.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ==========================================
+     CALL TO ACTION
+========================================== -->
+
+<div class="cta-box">
+
+    <h2>
+
+        Looking for Reliable Ocean Freight Services?
+
+    </h2>
+
+    <p>
+
+        AryanGlob Logistics offers dependable international Ocean Freight
+        solutions with competitive shipping rates, customs support,
+        cargo tracking and end-to-end logistics management tailored to
+        your business needs.
+
+    </p>
+
+    <a href="contact.html"
+       class="btn btn-success">
+
+        <i class="fa-solid fa-paper-plane"></i>
+
+        Get a Free Quote
+
+    </a>
+
+</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================
+     FOOTER
+========================================== -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <!-- Company -->
+
+            <div class="col-lg-4">
+
+                <h4>
+                    AryanGlob Logistics
+                </h4>
+
+                <p>
+
+                    AryanGlob Logistics provides reliable international
+                    logistics and freight forwarding solutions with
+                    expertise in Air Freight, Ocean Freight,
+                    Project Cargo, Customs Brokerage and
+                    Supply Chain Management.
+
+                </p>
+
+                <div class="footer-social">
+
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div class="col-lg-4">
+
+                <h4>
+
+                    Quick Links
+
+                </h4>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="aboutus.html">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div class="col-lg-4 footer-contact">
+
+                <h4>
+
+                    Contact Information
+
+                </h4>
+
+                <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span>
+
+                        Office No. 01, Gat No. 1574,
+                        Shelarwasti,
+                        Chikhali,
+                        Pimpri-Chinchwad,
+                        Pune – 411062,
+                        Maharashtra,
+                        India
+
+                    </span>
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>
+
+                        +91 XXXXXXXXXX
+
+                    </span>
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+
+                        info@aryangloblogistics.com
+
+                    </span>
+
+                </p>
+
+                <p>
+
+                    <i class="fa-solid fa-clock"></i>
+
+                    <span>
+
+                        Monday – Saturday
+
+                        <br>
+
+                        09:00 AM – 06:00 PM
+
+                    </span>
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © <span id="year"></span>
+                AryanGlob Logistics.
+                All Rights Reserved.
+
+            </p>
+
+            <p>
+
+                Designed & Developed for
+                <strong>AryanGlob Logistics</strong>
+
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ==========================================
+     BACK TO TOP
+========================================== -->
+
+<a href="#"
+   class="back-top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</a>
+
+<!-- ==========================================
+     BOOTSTRAP
+========================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- ==========================================
+     COMMON SCRIPT
+========================================== -->
+
+<script>
+
+const backTop = document.querySelector(".back-top");
+
+window.addEventListener("scroll", function(){
+
+    if(window.scrollY > 300){
+
+        backTop.style.display = "flex";
+
+    }else{
+
+        backTop.style.display = "none";
+    }
+
+});
+
+document.getElementById("year").textContent =
+new Date().getFullYear();
+
+</script>
 
 </body>
 

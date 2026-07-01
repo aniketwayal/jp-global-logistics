@@ -1,0 +1,577 @@
+/*==================================================
+        CONTACT RESPONSIVE
+==================================================*/
+
+/*==============================
+        LARGE DESKTOP
+==============================*/
+
+@media (max-width:1400px){
+
+.contact-hero h1{
+
+    font-size:58px;
+
+}
+
+.section-title{
+
+    font-size:46px;
+
+}
+
+.contact-hero img{
+
+    max-width:520px;
+
+}
+
+}
+
+/*==============================
+        LAPTOP
+==============================*/
+
+@media (max-width:1200px){
+
+.contact-hero h1{
+
+    font-size:52px;
+
+}
+
+.section-title{
+
+    font-size:42px;
+
+}
+
+.contact-card{
+
+    padding:35px 25px;
+
+}
+
+.contact-form-box{
+
+    padding:35px;
+
+}
+
+.stats-box{
+
+    padding:35px 20px;
+
+}
+
+}
+
+/*==============================
+            TABLET
+==============================*/
+
+@media (max-width:991px){
+
+.contact-hero{
+
+    text-align:center;
+
+    padding:140px 0 80px;
+
+}
+
+.contact-hero h1{
+
+    font-size:46px;
+
+}
+
+.contact-hero p{
+
+    margin:auto auto 35px;
+
+    max-width:700px;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.contact-hero img{
+
+    margin-top:60px;
+
+    max-width:500px;
+
+}
+
+.contact-info-section,
+
+.contact-form-section,
+
+.why-contact-section,
+
+.map-section,
+
+.contact-stats,
+
+.contact-cta{
+
+    padding:90px 0;
+
+}
+
+.contact-form-box{
+
+    margin-top:40px;
+
+}
+
+.why-contact-section img{
+
+    margin-bottom:50px;
+
+}
+
+.contact-feature{
+
+    margin-bottom:18px;
+
+}
+
+.contact-cta{
+
+    text-align:center;
+
+}
+
+.contact-cta .text-lg-end{
+
+    text-align:center !important;
+
+    margin-top:35px;
+
+}
+
+.contact-cta .btn{
+
+    margin-top:20px;
+
+}
+
+.footer{
+
+    text-align:center;
+
+}
+
+.footer h4::after{
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+}
+
+.footer-social{
+
+    justify-content:center;
+
+}
+
+.footer-contact li{
+
+    justify-content:center;
+
+}
+
+.map-wrapper iframe{
+
+    height:420px;
+
+}
+
+.stats-box{
+
+    margin-bottom:25px;
+
+}
+
+}
+/*==================================================
+                MOBILE
+==================================================*/
+
+@media (max-width:768px){
+
+.contact-hero{
+
+    padding:120px 0 70px;
+
+}
+
+.contact-hero h1{
+
+    font-size:38px;
+
+    line-height:1.25;
+
+}
+
+.contact-hero p{
+
+    font-size:16px;
+
+}
+
+.hero-badge{
+
+    font-size:13px;
+
+    padding:10px 18px;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.hero-buttons .btn{
+
+    width:100%;
+
+    max-width:320px;
+
+}
+
+.contact-hero img{
+
+    max-width:100%;
+
+}
+
+.section-title{
+
+    font-size:34px;
+
+}
+
+.contact-card{
+
+    padding:30px 25px;
+
+}
+
+.contact-card h4{
+
+    font-size:22px;
+
+}
+
+.contact-form-box{
+
+    padding:30px;
+
+}
+
+.contact-feature{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.contact-feature i{
+
+    margin:auto;
+
+}
+
+.contact-feature span{
+
+    display:block;
+
+}
+
+.map-wrapper iframe{
+
+    height:350px;
+
+}
+
+.contact-cta h2{
+
+    font-size:36px;
+
+}
+
+.contact-cta .btn{
+
+    width:100%;
+
+    max-width:320px;
+
+}
+
+.footer-logo{
+
+    display:block;
+
+    text-align:center;
+
+}
+
+}
+
+/*==================================================
+            SMALL MOBILE
+==================================================*/
+
+@media (max-width:576px){
+
+.contact-hero{
+
+    padding:100px 0 60px;
+
+}
+
+.contact-hero h1{
+
+    font-size:30px;
+
+}
+
+.contact-hero p{
+
+    font-size:15px;
+
+}
+
+.hero-badge{
+
+    font-size:12px;
+
+    padding:8px 16px;
+
+}
+
+.section-title{
+
+    font-size:28px;
+
+}
+
+.section-subtitle{
+
+    font-size:12px;
+
+}
+
+.contact-card{
+
+    padding:25px 20px;
+
+}
+
+.contact-icon{
+
+    width:70px;
+
+    height:70px;
+
+    font-size:26px;
+
+}
+
+.contact-form-box{
+
+    padding:25px 20px;
+
+}
+
+.contact-form-box .form-control,
+
+.contact-form-box .form-select{
+
+    height:52px;
+
+}
+
+.contact-form-box textarea.form-control{
+
+    min-height:140px;
+
+}
+
+.contact-feature{
+
+    padding:18px;
+
+}
+
+.stats-box{
+
+    padding:30px 20px;
+
+}
+
+.stats-box h2{
+
+    font-size:42px;
+
+}
+
+.contact-cta h2{
+
+    font-size:30px;
+
+}
+
+.contact-cta p{
+
+    font-size:15px;
+
+}
+
+.footer{
+
+    padding:70px 0 25px;
+
+}
+
+.footer h4{
+
+    font-size:20px;
+
+}
+
+.top-btn{
+
+    width:46px;
+
+    height:46px;
+
+    right:18px;
+
+    bottom:18px;
+
+}
+
+}
+
+/*==================================================
+            EXTRA SMALL DEVICES
+==================================================*/
+
+@media (max-width:400px){
+
+.contact-hero h1{
+
+    font-size:26px;
+
+}
+
+.section-title{
+
+    font-size:24px;
+
+}
+
+.hero-buttons .btn{
+
+    font-size:14px;
+
+    padding:14px 18px;
+
+}
+
+.contact-card{
+
+    padding:20px 18px;
+
+}
+
+.contact-form-box{
+
+    padding:20px 16px;
+
+}
+
+.contact-feature{
+
+    padding:16px;
+
+}
+
+.stats-box{
+
+    padding:25px 18px;
+
+}
+
+.stats-box h2{
+
+    font-size:36px;
+
+}
+
+.contact-cta h2{
+
+    font-size:26px;
+
+}
+
+.footer{
+
+    text-align:center;
+
+}
+
+.footer-contact li{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.footer-links{
+
+    text-align:center;
+
+}
+
+}
+
+/*==================================================
+            IMAGE SAFETY
+==================================================*/
+
+.contact-page img{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+/*==================================================
+        REMOVE HORIZONTAL SCROLL
+==================================================*/
+
+html,
+body{
+
+    overflow-x:hidden;
+
+}
