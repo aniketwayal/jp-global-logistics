@@ -558,7 +558,7 @@ p{
 
 .service-sidebar li a:hover{
 
-    background:var(--secondary);
+    background:goldenrod;
 
     color:#fff;
 
@@ -574,7 +574,7 @@ p{
 
 .service-sidebar li.active a{
 
-    background:var(--secondary);
+    background:goldenrod;
 
     border-color:var(--secondary);
 
@@ -1169,28 +1169,24 @@ p{
 =========================================================*/
 
 .reason-card .icon{
-
-    width:80px;
-
-    height:80px;
-
-    min-width:80px;
-
+    width:90px;
+    height:90px;
+    min-width:90px;
     border-radius:50%;
-
     background:#fff;
-
-    color:var(--secondary);
-
+    border:2px solid #ececec;
     display:flex;
-
     align-items:center;
-
     justify-content:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    overflow:hidden;
+}
 
-    font-size:32px;
-
-    transition:.35s;
+.reason-card .icon img{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    border-radius:0;
 }
 
 .reason-card:hover .icon{

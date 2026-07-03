@@ -146,7 +146,7 @@ p{
 
     border-radius:50px;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -189,7 +189,7 @@ p{
 
 .btn-success{
 
-    background:#00b050;
+    background:#d6a816;
 
     border:none;
 
@@ -199,7 +199,7 @@ p{
 
 .btn-success:hover{
 
-    background:#009642;
+    background:#d6a816;
 
     transform:translateY(-5px);
 
@@ -285,7 +285,7 @@ p{
 
 .navbar-brand span{
 
-    color:#00b050;
+    color:#d6a816;
 
 }
 
@@ -329,7 +329,7 @@ p{
 
     height:2px;
 
-    background:#00b050;
+    background:#d6a816;
 
     transition:.35s;
 
@@ -345,7 +345,7 @@ p{
 
 .navbar-nav .nav-link:hover{
 
-    color:#00b050!important;
+    color:#d6a816!important;
 
 }
 
@@ -373,7 +373,7 @@ p{
 
 .dropdown-item:hover{
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -403,7 +403,7 @@ p{
 
 .text-success{
 
-    color:#00b050!important;
+    color:#d6a816!important;
 
 }
 
@@ -443,7 +443,7 @@ p{
 
 ::-webkit-scrollbar-thumb{
 
-    background:#00b050;
+    background:#d6a816;
 
     border-radius:20px;
 
@@ -461,7 +461,7 @@ p{
 
 ::selection{
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -682,7 +682,7 @@ p{
 
     border-radius:50%;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -978,7 +978,7 @@ p{
 
     width:220px;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -1104,7 +1104,7 @@ p{
 
 .about-feature:hover .icon{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:rotate(8deg);
 
@@ -1350,7 +1350,7 @@ p{
 
 .service-card:hover .service-icon{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:rotate(10deg);
 
@@ -1396,7 +1396,7 @@ p{
 
     gap:10px;
 
-    color:#00b050;
+    color:#d6a816;
 
     font-weight:700;
 
@@ -1440,7 +1440,7 @@ p{
 
     height:5px;
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:scaleX(0);
 
@@ -1466,7 +1466,7 @@ p{
 
     left:20px;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -1602,7 +1602,7 @@ p{
 
     height:5px;
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:scaleX(0);
 
@@ -1654,7 +1654,7 @@ p{
 
 .why-card:hover i{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:rotate(10deg);
 
@@ -1764,7 +1764,7 @@ p{
 
 .company-list i{
 
-    color:#00b050;
+    color:#d6a816;
 
     font-size:20px;
 
@@ -1966,7 +1966,7 @@ p{
 
     border-radius:50%;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -2098,7 +2098,7 @@ p{
 
 .testimonial-card span{
 
-    color:#00b050;
+    color:#d6a816;
 
     font-size:15px;
 
@@ -2302,7 +2302,7 @@ p{
 
 .footer-logo span{
 
-    color:#00b050;
+    color:#d6a816;
 
 }
 
@@ -2342,7 +2342,7 @@ p{
 
     height:3px;
 
-    background:#00b050;
+    background:#d6a816;
 
     margin-top:10px;
 
@@ -2376,7 +2376,7 @@ p{
 
 .footer-links a:hover{
 
-    color:#00b050;
+    color:#d6a816;
 
     padding-left:10px;
 
@@ -2402,7 +2402,7 @@ p{
 
 .footer-contact i{
 
-    color:#00b050;
+    color:#d6a816;
 
     margin-top:4px;
 
@@ -2446,7 +2446,7 @@ p{
 
 .footer-social a:hover{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:translateY(-6px);
 
@@ -2514,7 +2514,7 @@ p{
 
     border:6px solid #ececec;
 
-    border-top:6px solid #00b050;
+    border-top:6px solid #d6a816;
 
     animation:loaderSpin 1s linear infinite;
 
@@ -2548,7 +2548,7 @@ p{
 
     border-radius:50%;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -2587,3 +2587,100 @@ p{
     transform:translateY(-6px);
 
 }
+.reason-section{
+    margin-top:60px;
+}
+
+.reason-card{
+    position:relative;
+    display:flex;
+    align-items:center;
+    gap:28px;
+    background:linear-gradient(135deg,#7800d6,#4b008f);
+    border-radius:22px;
+    padding:35px 40px;
+    margin-bottom:30px;
+    overflow:hidden;
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+}
+
+.reason-card::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:6px;
+    height:100%;
+    background:#00c853;
+}
+
+.reason-card .number{
+    width:64px;
+    height:64px;
+    min-width:64px;
+    border-radius:50%;
+    background:#fff;
+    color:#ebe720;
+    font-size:20px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.reason-card .icon{
+    width:90px;
+    height:90px;
+    min-width:90px;
+    border-radius:50%;
+    background:#fff;
+    border:2px solid #ececec;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+.reason-card .icon img{
+    width:72px;
+    height:72px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.reason-card .content{
+    flex:1;
+}
+
+.reason-card .content h4{
+    color:#fff;
+    font-size:20px;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.reason-card .content p{
+    color:#fff;
+    font-size:17px;
+    line-height:1.7;
+    margin:0;
+}
+
+@media(max-width:768px){
+
+    .reason-card{
+        flex-direction:column;
+        text-align:center;
+        padding:30px 20px;
+    }
+
+    .reason-card .number{
+        margin-bottom:10px;
+    }
+
+    .reason-card .icon{
+        margin-bottom:15px;
+    }
+
+}
+

@@ -104,7 +104,7 @@ body.contact-page section{
 
     border:4px solid rgba(255,255,255,.25);
 
-    border-top:4px solid #00b050;
+    border-top:4px solid #d6a816;
 
     animation:loaderRotate 1s linear infinite;
 
@@ -140,7 +140,7 @@ body.contact-page section{
 
     background:#e9f8ef;
 
-    color:#00b050;
+    color:#d6a816;
 
     font-size:14px;
 
@@ -186,7 +186,7 @@ body.contact-page section{
 
 .btn-success{
 
-    background:#00b050;
+    background:#d6a816;
 
     border:none;
 
@@ -305,7 +305,7 @@ body.contact-page section{
 
     border-radius:50%;
 
-    background:#00b050;
+    background:#d6a816;
 
 }
 
@@ -492,7 +492,7 @@ body.contact-page section{
 
     transform:translateY(-12px);
 
-    border-top-color:#00b050;
+    border-top-color:#d6a816;
 
     box-shadow:0 30px 70px rgba(0,0,0,.14);
 
@@ -526,7 +526,7 @@ body.contact-page section{
 
 .contact-card:hover .contact-icon{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:rotate(10deg);
 
@@ -610,7 +610,7 @@ body.contact-page section{
 
 .contact-form-box .form-select:focus{
 
-    border-color:#00b050;
+    border-color:#d6a816;
 
     box-shadow:0 0 0 4px rgba(0,176,80,.10);
 
@@ -733,7 +733,7 @@ body.contact-page section{
 
     border-radius:50%;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#ffffff;
 
@@ -847,7 +847,7 @@ body.contact-page section{
 
     border-radius:50%;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#ffffff;
 
@@ -1057,7 +1057,7 @@ body.contact-page section{
 
 .footer-logo span{
 
-    color:#00b050;
+    color:#d6a816;
 
 }
 
@@ -1099,7 +1099,7 @@ body.contact-page section{
 
     height:3px;
 
-    background:#00b050;
+    background:#d6a816;
 
 }
 
@@ -1129,7 +1129,7 @@ body.contact-page section{
 
 .footer-links a:hover{
 
-    color:#00b050;
+    color:#d6a816;
 
     padding-left:8px;
 
@@ -1161,7 +1161,7 @@ body.contact-page section{
 
 .footer-contact i{
 
-    color:#00b050;
+    color:#d6a816;
 
     margin-top:4px;
 
@@ -1203,7 +1203,7 @@ body.contact-page section{
 
 .footer-social a:hover{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:translateY(-5px);
 
@@ -1235,7 +1235,7 @@ body.contact-page section{
 
 .footer-policy:hover{
 
-    color:#00b050;
+    color:#d6a816;
 
 }
 
@@ -1257,7 +1257,7 @@ body.contact-page section{
 
     border-radius:50%;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#ffffff;
 
@@ -1341,7 +1341,7 @@ html{
 
 ::selection{
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#ffffff;
 
@@ -1805,7 +1805,7 @@ body{
 
 ::-webkit-scrollbar-thumb{
 
-    background:#00b050;
+    background:#d6a816;
 
     border-radius:20px;
 
@@ -1829,7 +1829,7 @@ body{
 
 ::selection{
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 

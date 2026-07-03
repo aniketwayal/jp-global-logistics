@@ -61,7 +61,7 @@ body.about-page section{
     width:45px;
     height:45px;
     border:4px solid rgba(255,255,255,.25);
-    border-top:4px solid #00b050;
+    border-top:4px solid #d6a816;
     border-radius:50%;
     display:block;
     margin:25px auto 0;
@@ -116,7 +116,7 @@ body.about-page section{
 
 .top-info i{
 
-    color:#00b050;
+    color:#d6a816;
 
 }
 
@@ -152,7 +152,7 @@ body.about-page section{
 
 .top-social a:hover{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:translateY(-3px);
 
@@ -253,7 +253,7 @@ center center/cover no-repeat;
 
     border-radius:50%;
 
-    background:#00b050;
+    background:#d6a816;
 
 }
 
@@ -347,13 +347,13 @@ center center/cover no-repeat;
 
 .breadcrumb-box span{
 
-    color:#00b050;
+    color:#d6a816;
 
 }
 
 .breadcrumb-box strong{
 
-    color:#00b050;
+    color:#d6a816;
 
 }
 
@@ -430,7 +430,7 @@ center center/cover no-repeat;
 
     padding:28px;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -816,7 +816,7 @@ center center/cover no-repeat;
 
     font-size:34px;
 
-    color:#00b050;
+    color:#d6a816;
 
 }
 
@@ -850,7 +850,7 @@ center center/cover no-repeat;
 
     background:#eaf8ef;
 
-    color:#00b050;
+    color:#d6a816;
 
     padding:10px 24px;
 
@@ -950,7 +950,7 @@ center center/cover no-repeat;
 
 .company-feature:hover i{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:rotate(10deg);
 
@@ -1109,7 +1109,7 @@ center center/cover no-repeat;
 
     transform:translateY(-12px);
 
-    border-color:#00b050;
+    border-color:#d6a816;
 
     box-shadow:0 35px 70px rgba(0,0,0,.15);
 
@@ -1143,7 +1143,7 @@ center center/cover no-repeat;
 
 .mission-card:hover .mission-icon{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:rotate(8deg);
 
@@ -1217,7 +1217,7 @@ center center/cover no-repeat;
 
     border-radius:50%;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -1293,7 +1293,7 @@ center center/cover no-repeat;
 
     width:4px;
 
-    background:#00b050;
+    background:#d6a816;
 
 }
 
@@ -1339,7 +1339,7 @@ center center/cover no-repeat;
 
     top:34px;
 
-    border:4px solid #00b050;
+    border:4px solid #d6a816;
 
 }
 
@@ -1349,7 +1349,7 @@ center center/cover no-repeat;
 
     padding:8px 18px;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -1454,7 +1454,7 @@ center center/cover no-repeat;
 
     height:5px;
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:scaleX(0);
 
@@ -1504,7 +1504,7 @@ center center/cover no-repeat;
 
 .why-card:hover .why-icon{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:rotate(8deg);
 
@@ -1584,7 +1584,7 @@ center center/cover no-repeat;
 
     margin:auto auto 20px;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#fff;
 
@@ -1837,7 +1837,7 @@ center center/cover no-repeat;
 
     height:3px;
 
-    background:#00b050;
+    background:#d6a816;
 
 }
 
@@ -1871,7 +1871,7 @@ center center/cover no-repeat;
 
 .footer-links a:hover{
 
-    color:#00b050;
+    color:#d6a816;
 
     padding-left:8px;
 
@@ -1909,7 +1909,7 @@ center center/cover no-repeat;
 
 .footer-contact i{
 
-    color:#00b050;
+    color:#d6a816;
 
     width:18px;
 
@@ -1955,7 +1955,7 @@ center center/cover no-repeat;
 
 .footer-social a:hover{
 
-    background:#00b050;
+    background:#d6a816;
 
     transform:translateY(-5px);
 
@@ -1991,7 +1991,7 @@ center center/cover no-repeat;
 
 .footer-policy:hover{
 
-    color:#00b050;
+    color:#d6a816;
 
 }
 
@@ -2013,7 +2013,7 @@ center center/cover no-repeat;
 
     border-radius:50%;
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#ffffff;
 
@@ -2067,7 +2067,7 @@ html{
 
 ::selection{
 
-    background:#00b050;
+    background:#d6a816;
 
     color:#ffffff;
 
@@ -2093,7 +2093,7 @@ html{
 
     background:#e9f8ef;
 
-    color:#00b050;
+    color:#d6a816;
 
     font-size:14px;
 
