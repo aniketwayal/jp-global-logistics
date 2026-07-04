@@ -186,7 +186,7 @@ body.contact-page section{
 
 .btn-success{
 
-    background:#d6a816;
+    background:gold;
 
     border:none;
 
@@ -202,7 +202,7 @@ body.contact-page section{
 
 .btn-success:hover{
 
-    background:#009245;
+    background:#ebdc0c;
 
     transform:translateY(-3px);
 
