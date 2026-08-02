@@ -69,8 +69,9 @@
          COMMON SERVICE CSS
     =========================================== -->
 
-    <link rel="stylesheet"
-        href="css/service.css">
+   <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="css/service.css">
 
 </head>
 
@@ -80,70 +81,43 @@
      NAVBAR
 ========================================== -->
 
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg fixed-top">
 
     <div class="container">
 
-        <!-- Logo -->
-
-        <a class="navbar-brand"
-            href="index.html">
-
-                      Arya<span style="color:orange;">Glob</span> Logistics
-
-
+        <a class="navbar-brand" href="index.html">
+            <span class="logo-arya">Arya</span>
+            <span class="logo-globe">Globe</span>
+            <span class="logo-logistics"> Logistics Private Limited</span>
         </a>
-
-        <!-- Mobile Toggle -->
 
         <button class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#mainMenu"
-            aria-controls="mainMenu"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
+            data-bs-target="#menu">
 
-            <span class="navbar-toggler-icon"></span>
+            <i class="fa-solid fa-bars"></i>
 
         </button>
 
-        <!-- Menu -->
-
         <div class="collapse navbar-collapse"
-            id="mainMenu">
+            id="menu">
 
             <ul class="navbar-nav ms-auto align-items-lg-center">
 
                 <li class="nav-item">
-
-                    <a class="nav-link"
-                        href="index.html">
-
-                        Home
-
-                    </a>
-
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
 
                 <li class="nav-item">
-
-                    <a class="nav-link"
-                        href="aboutus.html">
-
-                        About Us
-
-                    </a>
-
+                    <a class="nav-link" href="aboutus.html">About Us</a>
                 </li>
 
                 <li class="nav-item dropdown">
 
                     <a class="nav-link dropdown-toggle active"
-                        href="services.html"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                        href="#"
+                        data-bs-toggle="dropdown">
 
                         Services
 
@@ -151,108 +125,25 @@
 
                     <ul class="dropdown-menu">
 
-                        <li>
-
-                            <a class="dropdown-item active"
-                                href="air-freight.html">
-
-                                <i class="fa-solid fa-plane me-2"></i>
-
-                                Air Freight
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a class="dropdown-item"
-                                href="oceanfreight.html">
-
-                                <i class="fa-solid fa-ship me-2"></i>
-
-                                Ocean Freight
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a class="dropdown-item"
-                                href="project-cargo.html">
-
-                                <i class="fa-solid fa-box me-2"></i>
-
-                                Project Cargo
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a class="dropdown-item"
-                                href="custom-brokerage.html">
-
-                                <i class="fa-solid fa-file-invoice me-2"></i>
-
-                                Customs Brokerage
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a class="dropdown-item"
-                                href="reverse-logistics.html">
-
-                                <i class="fa-solid fa-truck-fast me-2"></i>
-
-                                Reverse Logistics
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a class="dropdown-item"
-                                href="dangerous-goods.html">
-
-                                <i class="fa-solid fa-biohazard me-2"></i>
-
-                                Dangerous Goods Handling
-
-                            </a>
-
-                        </li>
+                        <li><a class="dropdown-item active" href="air-freight.html">Air Freight</a></li>
+                        <li><a class="dropdown-item" href="oceanfreight.html">Ocean Freight</a></li>
+                        <li><a class="dropdown-item" href="project-cargo.html">Project Cargo</a></li>
+                        <li><a class="dropdown-item" href="custom-brokerage.html">Customs Brokerage</a></li>
+                        <li><a class="dropdown-item" href="reverse-logistics.html">Reverse Logistics</a></li>
+                        <li><a class="dropdown-item" href="dangerous-goods.html">Dangerous Goods Handling</a></li>
 
                     </ul>
 
                 </li>
 
                 <li class="nav-item">
-
-                    <a class="nav-link"
-                        href="contact.html">
-
-                        Contact
-
-                    </a>
-
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
 
                 <li class="nav-item ms-lg-3">
-
-                    <a href="contact.html"
-                        class="btn btn-success">
-
+                    <a href="contact.html" class="btn btn-success">
                         Get Quote
-
                     </a>
-
                 </li>
 
             </ul>
@@ -864,32 +755,7 @@
      CALL TO ACTION
 ========================================== -->
 
-<div class="cta-box">
 
-    <h2>
-
-        Need Fast & Reliable Air Freight Services?
-
-    </h2>
-
-    <p>
-
-        AryaGlobe Logistics delivers dependable international and domestic
-        air cargo solutions with professional customs clearance,
-        competitive freight rates and on-time delivery.
-
-    </p>
-
-    <a href="contact.html"
-       class="btn btn-success">
-
-        <i class="fa-solid fa-paper-plane"></i>
-
-        Request a Free Quote
-
-    </a>
-
-</div>
             </div>
 
         </div>

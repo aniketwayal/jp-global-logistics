@@ -223,9 +223,7 @@ body.contact-page section{
 
     overflow:hidden;
 
-    background:
-        linear-gradient(rgba(8,24,52,.82),rgba(8,24,52,.82)),
-        url("https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1920&q=80");
+  background: url("../images/cotact us .jpg") center center/cover no-repeat;
 
     background-size:cover;
 

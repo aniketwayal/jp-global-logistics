@@ -17,7 +17,7 @@
 :root{
 
     --primary:#071d39;
-    --secondary:#00b140;
+    --secondary:#4d00b8;
     --accent:#ffc107;
     --purple:#4d00b8;
 
@@ -192,26 +192,7 @@ p{
  NAVBAR
 =========================================================*/
 
-.navbar{
 
-    position:fixed;
-
-    top:0;
-
-    left:0;
-
-    width:100%;
-
-    z-index:9999;
-
-    background:rgba(7,29,57,.95);
-
-    backdrop-filter:blur(12px);
-
-    padding:15px 0;
-
-    transition:var(--transition);
-}
 
 .navbar-brand{
 
@@ -334,7 +315,10 @@ p{
 
     inset:0;
 
-    background:rgba(7,29,57,.60);
+    background:linear-gradient(
+        rgba(7,29,57,.15),
+        rgba(7,29,57,.15)
+    );
 
     z-index:1;
 }
@@ -372,7 +356,7 @@ p{
 
 .ocean-banner{
 
-    background:url("../images/ocean-freight.jpg") center center/cover no-repeat;
+    background:url("../images/ocean.avif") center center/cover no-repeat;
 }
 
 .project-banner{
@@ -385,11 +369,22 @@ p{
     background:url("../images/bgcustombrokerage.png") center center/cover no-repeat;
 }
 
+/*  */
 .reverse-banner{
-
-    background:url("../images/bgrev.jpeg") center center/cover no-repeat;
+    background-image:url("../images/Reverse Logistics1image .jpeg");
+    background-size:cover;
+    background-position:center 25%;
+    background-repeat:no-repeat;
 }
-
+.page-banner{
+    position: relative;
+    height: 700px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
 .dg-banner{
 
     background:url("../images/bgdangerous.jpg") center center/cover no-repeat;

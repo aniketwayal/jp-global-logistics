@@ -181,23 +181,9 @@ body.about-page section{
 
     overflow:hidden;
 
-  background:
-linear-gradient(rgba(8,24,52,.75),rgba(8,24,52,.75)),
-url("https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1920&q=80")
-center center/cover no-repeat;
-
-}
-
-.hero-overlay{
-
-    position:absolute;
-
-    inset:0;
-
     background:
-    radial-gradient(circle at top right,
-    rgba(0,176,80,.18),
-    transparent 45%);
+    url("../images/indexhtmltop.jpeg")
+    center center/cover no-repeat;
 
 }
 
