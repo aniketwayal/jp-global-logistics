@@ -994,246 +994,157 @@ body.contact-page section{
 
 }
 /*==================================================
-                FOOTER
+            GLOBAL FOOTER (SAME AS HOME PAGE)
 ==================================================*/
 
-.footer{
-
-    position:relative;
-
-    background:#081834;
-
-    color:#ffffff;
-
-    padding:100px 0 25px;
-
+.footer-section{
+    position: relative;
+    background: linear-gradient(rgba(10,12,45,.92),rgba(10,12,45,.92)),
+                url("images/footer-bg.jpg") center/cover no-repeat;
+    color:#fff;
+    padding:90px 0 25px;
     overflow:hidden;
-
 }
 
-.footer::before{
-
-    content:"";
-
-    position:absolute;
-
-    width:450px;
-
-    height:450px;
-
-    border-radius:50%;
-
-    background:rgba(0,176,80,.08);
-
-    top:-220px;
-
-    right:-220px;
-
+.footer-section .container{
+    max-width:1320px;
 }
 
-.footer .container{
-
-    position:relative;
-
-    z-index:2;
-
-}
-
-.footer-logo{
-
-    display:inline-block;
-
-    font-size:34px;
-
+.footer-brand{
+    font-size:54px;
     font-weight:800;
-
-    color:#ffffff;
-
+    line-height:1.15;
+    color:#fff;
     margin-bottom:25px;
-
+    white-space:normal;
 }
 
-.footer-logo span{
-
-    color:#d6a816;
-
-}
-
-.footer p{
-
-    color:#cfd6e4;
-
+.footer-logo p{
+    color:#d8d8d8;
     line-height:1.9;
-
-    font-size:15px;
-
-}
-
-.footer h4{
-
-    color:#ffffff;
-
-    font-size:22px;
-
-    font-weight:700;
-
     margin-bottom:25px;
-
-    position:relative;
-
 }
 
-.footer h4::after{
+.footer-section h4{
+    color:#fff;
+    font-size:32px;
+    font-weight:700;
+    margin-bottom:25px;
+    position:relative;
+}
 
+.footer-section h4::after{
     content:"";
-
     position:absolute;
-
     left:0;
-
     bottom:-10px;
-
-    width:55px;
-
+    width:60px;
     height:3px;
-
-    background:#d6a816;
-
+    background:#f4c400;
 }
 
 .footer-links{
-
     list-style:none;
-
     padding:0;
-
     margin:0;
-
 }
 
 .footer-links li{
-
-    margin-bottom:14px;
-
+    margin-bottom:16px;
 }
 
 .footer-links a{
-
-    color:#cfd6e4;
-
+    color:#d8d8d8;
+    text-decoration:none;
     transition:.3s;
-
 }
 
 .footer-links a:hover{
-
-    color:#d6a816;
-
+    color:#f4c400;
     padding-left:8px;
-
 }
 
-.footer-contact{
-
-    list-style:none;
-
-    padding:0;
-
-    margin:0;
-
-}
-
-.footer-contact li{
-
-    display:flex;
-
-    align-items:flex-start;
-
-    gap:14px;
-
+.footer-contact p{
+    color:#d8d8d8;
     margin-bottom:18px;
-
-    color:#cfd6e4;
-
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
 }
 
 .footer-contact i{
-
-    color:#d6a816;
-
+    color:#f4c400;
+    width:20px;
     margin-top:4px;
-
-    width:18px;
-
 }
 
 .footer-social{
-
     display:flex;
-
-    gap:12px;
-
+    gap:15px;
     margin-top:25px;
-
 }
 
 .footer-social a{
-
-    width:46px;
-
-    height:46px;
-
+    width:48px;
+    height:48px;
     border-radius:50%;
-
     background:rgba(255,255,255,.08);
-
-    color:#ffffff;
-
+    color:#fff;
     display:flex;
-
-    justify-content:center;
-
     align-items:center;
-
-    transition:.35s;
-
+    justify-content:center;
+    transition:.3s;
 }
 
 .footer-social a:hover{
-
-    background:#d6a816;
-
+    background:#f4c400;
     transform:translateY(-5px);
-
 }
 
-.footer hr{
-
-    border-color:rgba(255,255,255,.10);
-
-    margin:45px 0 25px;
-
+.footer-section hr{
+    border-color:rgba(255,255,255,.1);
+    margin:40px 0 20px;
 }
 
-.copyright{
-
-    color:#cfd6e4;
-
+.footer-bottom p{
     margin:0;
+    color:#d8d8d8;
+}
+
+@media(max-width:991px){
+
+.footer-brand{
+    font-size:42px;
+}
+
+.footer-section{
+    text-align:center;
+}
+
+.footer-section h4::after{
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.footer-social{
+    justify-content:center;
+}
+
+.footer-contact p{
+    justify-content:center;
+}
 
 }
 
-.footer-policy{
+@media(max-width:576px){
 
-    color:#cfd6e4;
-
-    margin:0 10px;
-
+.footer-brand{
+    font-size:34px;
 }
 
-.footer-policy:hover{
-
-    color:#d6a816;
+.footer-section h4{
+    font-size:26px;
+}
 
 }
 
@@ -1854,4 +1765,23 @@ body{
 
     }
 
+}
+/* Use global footer */
+
+.footer-section{
+    width:100%;
+}
+
+.footer-section .container{
+    max-width:1320px;
+    width:100%;
+}
+
+.footer-brand{
+    white-space:normal;
+    max-width:100%;
+}
+
+.footer-logo{
+    width:100%;
 }

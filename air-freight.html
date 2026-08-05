@@ -182,13 +182,13 @@
 
                     </li>
 
-                    <li class="breadcrumb-item">
+                    <!-- <li class="breadcrumb-item">
 
                         <a href="services.html">
                             Services
                         </a>
 
-                    </li>
+                    </li> -->
 
                     <li class="breadcrumb-item active text-white"
                         aria-current="page">
@@ -768,67 +768,78 @@
      FOOTER
 ========================================== -->
 
-<footer>
+<!-- ==========================================
+        FOOTER
+========================================== -->
+
+<footer class="footer-section">
 
     <div class="container">
 
         <div class="row gy-5">
 
-            <!-- Company -->
+            <!-- COMPANY -->
+            <div class="col-lg-5 col-md-12">
 
-            <div class="col-lg-4">
+                <div class="footer-logo">
 
-                <h4>
-                    AryaGlobe Logistics
-                </h4>
+                    <h2 class="footer-brand">
+                        AryaGlobe Logistics Private Limited
+                    </h2>
 
-                <p>
-
-                    AryaGlobe Logistics delivers reliable, secure and
-                    cost-effective logistics solutions across India and
-                    worldwide. We specialize in Air Freight, Ocean Freight,
-                    Customs Brokerage, Project Cargo and Supply Chain
-                    Management.
-
-                </p>
-
-                <div class="footer-social">
-
-                    <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                    <p>
+                        AryaGlobe Logistics delivers complete freight forwarding,
+                        customs brokerage, project cargo, warehousing and supply
+                        chain solutions across India and worldwide.
+                    </p>
 
                 </div>
 
+                <!-- <div class="footer-social">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                </div> -->
+
             </div>
 
-            <!-- Quick Links -->
+            <!-- SERVICES -->
+            <div class="col-lg-2 col-md-4">
 
-            <div class="col-lg-4">
+                <h4>Services</h4>
 
-                <h4>
-                    Quick Links
-                </h4>
+                <ul class="footer-links">
 
-                <ul>
+                    <li><a href="air-freight.html">Air Freight</a></li>
+
+                    <li><a href="oceanfreight.html">Ocean Freight</a></li>
+
+                    <li><a href="project-cargo.html">Project Cargo</a></li>
+
+                    <li><a href="custom-brokerage.html">Customs</a></li>
+
+                    <li><a href="reverse-logistics.html">Reverse Logistics</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- QUICK LINKS -->
+            <div class="col-lg-2 col-md-4">
+
+                <h4>Quick Links</h4>
+
+                <ul class="footer-links">
 
                     <li><a href="index.html">Home</a></li>
 
-                    <li><a href="aboutus.html">About Us</a></li>
-
-                    <li><a href="services.html">Services</a></li>
+                    <li><a href="aboutus.html">About</a></li>
 
                     <li><a href="contact.html">Contact</a></li>
 
@@ -836,66 +847,34 @@
 
             </div>
 
-            <!-- Contact -->
+            <!-- CONTACT -->
+            <div class="col-lg-3 col-md-4">
 
-            <div class="col-lg-4 footer-contact">
+                <h4>Contact Information</h4>
 
-                <h4>
-                    Contact Information
-                </h4>
+                <div class="footer-contact">
 
-                <p>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Mumbai, Maharashtra, India
+                    </p>
 
-                    <i class="fa-solid fa-location-dot"></i>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        +91 7777030800
+                    </p>
 
-                    <span>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        jagdish@aryaglobe.co.in
+                    </p>
 
-                        Office No. 01, Gat No. 1574, Shelarwasti,
-                        Chikhali, Pimpri-Chinchwad,
-                        Pune – 411062,
-                        Maharashtra, India
+                    <p>
+                        <i class="fa-solid fa-clock"></i>
+                        Mon - Sat : 09:00 AM - 07:00 PM
+                    </p>
 
-                    </span>
-
-                </p>
-
-                <p>
-
-                    <i class="fa-solid fa-phone"></i>
-
-                    <span>
-
-                        +91 XXXXXXXXXX
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    <i class="fa-solid fa-envelope"></i>
-
-                    <span>
-
-                        info@AryaGlobelogistics.com
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    <i class="fa-solid fa-clock"></i>
-
-                    <span>
-
-                        Monday - Saturday
-                        <br>
-                        09:00 AM - 06:00 PM
-
-                    </span>
-
-                </p>
+                </div>
 
             </div>
 
@@ -905,18 +884,26 @@
 
         <div class="footer-bottom">
 
-            <p>
+            <div class="row align-items-center">
 
-                © 2026 AryaGlobe Logistics. All Rights Reserved.
+                <div class="col-lg-6">
 
-            </p>
+                    <p>
+                        © <span id="year"></span>
+                       AryaGlobe Logistics Private Limited   All Rights Reserved.
+                    </p>
 
-            <p>
+                </div>
 
-                Designed & Developed for
-                <strong>AryaGlobe Logistics</strong>
+                <!-- <div class="col-lg-6 text-lg-end">
 
-            </p>
+                    <p>
+                        Designed &amp; Developed with ❤️
+                    </p>
+
+                </div> -->
+
+            </div>
 
         </div>
 
@@ -925,45 +912,30 @@
 </footer>
 
 <!-- ==========================================
-     BACK TO TOP
+        BACK TO TOP
 ========================================== -->
 
-<a href="#"
-   class="back-top">
-
+<a href="#" class="back-top" id="backTop">
     <i class="fa-solid fa-arrow-up"></i>
-
 </a>
 
 <!-- ==========================================
-     BOOTSTRAP
+        PRELOADER
+========================================== -->
+
+<div class="preloader" id="preloader">
+    <div class="loader"></div>
+</div>
+
+<!-- ==========================================
+        JAVASCRIPT
 ========================================== -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- ==========================================
-     BACK TO TOP SCRIPT
-========================================== -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-<script>
-
-const backTop = document.querySelector(".back-top");
-
-window.addEventListener("scroll", () => {
-
-    if(window.scrollY > 300){
-
-        backTop.style.display = "flex";
-
-    }else{
-
-        backTop.style.display = "none";
-    }
-
-});
-
-</script>
+<script src="js/main.js"></script>
 
 </body>
-
 </html>

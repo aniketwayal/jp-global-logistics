@@ -1726,17 +1726,11 @@ body.about-page section{
 ==================================================*/
 
 .footer{
-
     position:relative;
-
     background:#081834;
-
     color:#ffffff;
-
     padding:100px 0 25px;
-
     overflow:hidden;
-
 }
 
 .footer::before{
@@ -2123,4 +2117,24 @@ html{
     margin-bottom: 8px;
     line-height: 1.7;
     color: #555;
+}
+
+/* Use global footer */
+
+.footer-section{
+    width:100%;
+}
+
+.footer-section .container{
+    max-width:1320px;
+    width:100%;
+}
+
+.footer-brand{
+    white-space:normal;
+    max-width:100%;
+}
+
+.footer-logo{
+    width:100%;
 }
