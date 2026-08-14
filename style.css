@@ -2741,3 +2741,17 @@ p{
     object-fit: contain;
     display: block;
 }
+/* Mobile menu text fix */
+@media (max-width: 768px) {
+    .nav-links a,
+    .navbar a,
+    .mobile-menu a {
+        color: #ffffff !important;
+    }
+
+    .nav-links a:hover,
+    .navbar a:hover,
+    .mobile-menu a:hover {
+        color: #ffd700 !important;
+    }
+}
