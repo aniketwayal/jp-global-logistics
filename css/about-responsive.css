@@ -704,3 +704,16 @@ body{
     overflow-x:hidden;
 
 }
+@media (max-width: 768px) {
+    .nav-links a,
+    .navbar a,
+    .mobile-menu a {
+        color: #ffffff !important;
+    }
+
+    .nav-links a:hover,
+    .navbar a:hover,
+    .mobile-menu a:hover {
+        color: #ffd700 !important;
+    }
+}
