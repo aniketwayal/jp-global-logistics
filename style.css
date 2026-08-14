@@ -2741,17 +2741,41 @@ p{
     object-fit: contain;
     display: block;
 }
-/* Mobile menu text fix */
-@media (max-width: 768px) {
-    .nav-links a,
-    .navbar a,
-    .mobile-menu a {
+/* ==========================================
+   MOBILE NAVBAR - TEXT COLOR FIX
+========================================== */
+
+@media (max-width: 991.98px) {
+
+    .navbar-nav .nav-link,
+    .navbar-nav .nav-link:visited,
+    .navbar-nav .nav-link:focus,
+    .navbar-nav .nav-link.active {
         color: #ffffff !important;
     }
 
-    .nav-links a:hover,
-    .navbar a:hover,
-    .mobile-menu a:hover {
+    .navbar-nav .nav-link:hover {
         color: #ffd700 !important;
+    }
+
+    /* Services dropdown */
+    .navbar-nav .dropdown-menu {
+        background: #2b076e !important;
+        border: none !important;
+    }
+
+    .navbar-nav .dropdown-menu .dropdown-item {
+        color: #ffffff !important;
+    }
+
+    .navbar-nav .dropdown-menu .dropdown-item:hover,
+    .navbar-nav .dropdown-menu .dropdown-item:focus {
+        background: #6f00c9 !important;
+        color: #ffd700 !important;
+    }
+
+    /* Get Quote button */
+    .navbar-nav .btn-success {
+        color: #ffffff !important;
     }
 }
