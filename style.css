@@ -2744,6 +2744,9 @@ p{
 /* ==========================================
    MOBILE NAVBAR - TEXT COLOR FIX
 ========================================== */
+/* ==========================================
+   MOBILE NAVBAR - WHITE TEXT
+========================================== */
 
 @media (max-width: 991.98px) {
 
@@ -2755,7 +2758,7 @@ p{
     }
 
     .navbar-nav .nav-link:hover {
-        color: #ffd700 !important;
+        color: #ffffff !important;
     }
 
     /* Services dropdown */
@@ -2764,18 +2767,58 @@ p{
         border: none !important;
     }
 
-    .navbar-nav .dropdown-menu .dropdown-item {
-        color: #ffffff !important;
-    }
-
+    .navbar-nav .dropdown-menu .dropdown-item,
     .navbar-nav .dropdown-menu .dropdown-item:hover,
     .navbar-nav .dropdown-menu .dropdown-item:focus {
-        background: #6f00c9 !important;
-        color: #ffd700 !important;
+        color: #ffffff !important;
     }
 
     /* Get Quote button */
     .navbar-nav .btn-success {
         color: #ffffff !important;
+    }
+}
+/* Mobile hamburger icon - orange */
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        color: #f57c00 !important;
+        background: transparent !important;
+        border: none !important;
+    }
+
+    .navbar-toggler i {
+        color: #f57c00 !important;
+    }
+}
+
+/* ==========================================
+   MOBILE HAMBURGER - ORANGE
+========================================== */
+
+@media (max-width: 991.98px) {
+
+    .navbar-toggler {
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler-icon {
+        background-image: none !important;
+        width: 28px !important;
+        height: 20px !important;
+        display: inline-block;
+        position: relative;
+        border-top: 3px solid #f57c00;
+        border-bottom: 3px solid #f57c00;
+    }
+
+    .navbar-toggler-icon::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 6px;
+        height: 3px;
+        background-color: #f57c00;
     }
 }

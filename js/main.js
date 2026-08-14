@@ -23,6 +23,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
+
+    /*==========================================
+            EMAILJS INITIALIZATION
+    ==========================================*/
+
+    if (typeof emailjs !== "undefined") {
+
+        emailjs.init({
+            publicKey: "WK1IcPm0GvyzgIBT1"
+        });
+
+    }
+
+
     /*==========================================
             COPYRIGHT YEAR
     ==========================================*/
@@ -34,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         year.textContent = new Date().getFullYear();
 
     }
+
 
     /*==========================================
             COUNTER
@@ -85,11 +100,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
+
     counters.forEach(counter => {
 
         counterObserver.observe(counter);
 
     });
+
 
     /*==========================================
             NAVBAR SCROLL
@@ -117,6 +134,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener("scroll", navbarScroll);
 
+
     /*==========================================
             BACK TO TOP
     ==========================================*/
@@ -143,6 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener("scroll", toggleBackTop);
 
+
     if (backTop) {
 
         backTop.addEventListener("click", function (e) {
@@ -160,6 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
     }
+
 
     /*==========================================
             SMOOTH SCROLL
@@ -187,6 +207,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
+
     /*==========================================
             ACTIVE NAVIGATION
     ==========================================*/
@@ -197,13 +218,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const href = link.getAttribute("href");
 
-        if (href === currentPage || (currentPage === "" && href === "index.html")) {
+        if (
+            href === currentPage ||
+            (currentPage === "" && href === "index.html")
+        ) {
 
             link.classList.add("active");
 
         }
 
     });
+
 
     /*==========================================
             PRELOADER
@@ -227,6 +252,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
+
     /*==========================================
             IMAGE PARALLAX
     ==========================================*/
@@ -237,11 +263,188 @@ document.addEventListener("DOMContentLoaded", function () {
 
         window.addEventListener("mousemove", function (e) {
 
-            const x = (window.innerWidth / 2 - e.clientX) / 60;
+            const x =
+                (window.innerWidth / 2 - e.clientX) / 60;
 
-            const y = (window.innerHeight / 2 - e.clientY) / 60;
+            const y =
+                (window.innerHeight / 2 - e.clientY) / 60;
 
-            heroImage.style.transform = `translate(${x}px, ${y}px)`;
+            heroImage.style.transform =
+                `translate(${x}px, ${y}px)`;
+
+        });
+
+    }
+
+
+    /*==========================================
+            EMAILJS CONTACT FORM
+    ==========================================*/
+
+    const contactForm =
+        document.getElementById("contactForm");
+
+    if (contactForm) {
+
+        contactForm.addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+            const status =
+                document.getElementById("status");
+
+            const submitButton =
+                contactForm.querySelector(
+                    "button[type='submit']"
+                );
+
+
+            /*--------------------------------------
+                GET FORM VALUES
+            --------------------------------------*/
+
+            const name =
+                document.getElementById("name").value.trim();
+
+            const email =
+                document.getElementById("email").value.trim();
+
+            const phone =
+                document.getElementById("phone").value.trim();
+
+            const company =
+                document.getElementById("company").value.trim();
+
+            const service =
+                document.getElementById("service").value;
+
+            const message =
+                document.getElementById("message").value.trim();
+
+
+            /*--------------------------------------
+                VALIDATION
+            --------------------------------------*/
+
+            if (!name || !email || !message) {
+
+                status.innerHTML =
+                    '<div class="alert alert-danger">' +
+                    'Please fill all required fields.' +
+                    '</div>';
+
+                return;
+
+            }
+
+
+            /*--------------------------------------
+                CHECK EMAILJS
+            --------------------------------------*/
+
+            if (typeof emailjs === "undefined") {
+
+                console.error("EmailJS library not loaded.");
+
+                status.innerHTML =
+                    '<div class="alert alert-danger">' +
+                    'Email service is currently unavailable.' +
+                    '</div>';
+
+                return;
+
+            }
+
+
+            /*--------------------------------------
+                DISABLE BUTTON
+            --------------------------------------*/
+
+            submitButton.disabled = true;
+
+            submitButton.innerHTML =
+                '<i class="fa-solid fa-spinner fa-spin me-2"></i>' +
+                'Sending...';
+
+
+            /*--------------------------------------
+                EMAILJS DATA
+            --------------------------------------*/
+
+            const templateParams = {
+
+                name: name,
+
+                email: email,
+
+                phone: phone,
+
+                company: company,
+
+                service: service,
+
+                message: message
+
+            };
+
+
+            /*--------------------------------------
+                SEND EMAIL
+            --------------------------------------*/
+
+            emailjs.send(
+
+                "service_qg3292i",
+
+                "template_8wyl11b",
+
+                templateParams
+
+            )
+
+            .then(function (response) {
+
+                console.log(
+                    "Email sent successfully:",
+                    response.status,
+                    response.text
+                );
+
+
+                status.innerHTML =
+                    '<div class="alert alert-success">' +
+                    'Thank you! Your inquiry has been sent successfully.' +
+                    '</div>';
+
+
+                contactForm.reset();
+
+            })
+
+            .catch(function (error) {
+
+                console.error(
+                    "EmailJS Error:",
+                    error
+                );
+
+
+                status.innerHTML =
+                    '<div class="alert alert-danger">' +
+                    'Unable to send your inquiry. Please try again later.' +
+                    '</div>';
+
+            })
+
+            .finally(function () {
+
+                submitButton.disabled = false;
+
+                submitButton.innerHTML =
+                    '<i class="fa-solid fa-paper-plane me-2"></i>' +
+                    'Send Inquiry';
+
+            });
 
         });
 
