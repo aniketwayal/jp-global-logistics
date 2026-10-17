@@ -316,6 +316,32 @@ p{
     color:#f57c00;
 }
 
+.logo-arya,
+.logo-globe {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+.logo-logistics {
+    margin-left: 0;
+}
+
+.navbar-brand .logo-arya,
+.navbar-brand .logo-globe {
+    margin: 0 !important;
+    padding: 0 !important;
+    letter-spacing: 0 !important;
+}
+
+
+.navbar-brand .logo-arya + .logo-globe {
+    margin-left: -8px !important;
+    padding-left: 0 !important;
+}
+
+
+
 .navbar-toggler{
 
     border:none;
